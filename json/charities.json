@@ -1,0 +1,150 @@
+[
+    {
+        "name": "Adopt A Family Marin",
+        "about": "Over the last 30 years, Adopt A Family has helped to prevent the road to homelessness which families face. Their goal is no homeless children living in Marin. They help families stay stable in their fight against poverty.",
+        "address": "35 Mitchell Bvld. Suite 16, San Rafael, CA",
+        "email": "jaqueline@adoptafamily.org",
+        "items": ["Sponges", "Dish Soap", "Dish Towels", "Multi-Surface Cleaner",
+                  "Garbage Bags", "Hand Soap", "Hand Towels", "Flushable Wipes",
+                  "Toothbrushes", "Toothpaste", "Floss", "Shampoo", "Conditioner",
+                  "Body Wash", "Lotion", "Razors", "Shaving Cream", "Face Wash",
+                  "Baby Wipes", "Diapers", "Disinfecting Wipes", "Disinfecting Spray",
+                  "Masks", "Small Trashbags", "Laundry Detergent", "Hand Sanitizer",
+                  "Fabric Softener", "Dryer Ssheets"]
+    },
+
+    {
+        "name": "Bloom Marin",
+        "about": "Bloom provides the seeds for successful transitions, clothing, life skills, hope for men, women and children.",
+        "address": "1557 Fourth Street, San Rafael, CA",
+        "email": "info@bloommarin.org",
+        "items": ["Girl's Clothing (4-10)", "Boy's Clothing (4-10)",
+                  "Purses", "Jewlery"]
+    },
+
+    {
+        "name": "Hospice of Marin Hodgepoge",
+        "about": "Moving? Cleaning out closets? Donating gently-used household items, furniture, books, gifts, clothing and collectibles to our thrift stores is an easy way to support Hospice by the Bay.",
+        "address": "910 Lincoln Avenue, San Rafael, CA",
+        "email": "",
+        "items": ["everything"]
+    },
+
+    {
+        "name": "Ritter Center",
+        "about": "The Ritter Center's mission is to prevent homelessness and improve the health and well-being of individuals and families who are homeless or low-income by providing a range of culturally sensitive, easily accessible, high quality medical care and social services.",
+        "address": "16 Ritter Street, San Rafael, CA",
+        "email": "development@rittercenter.org",
+        "items": ["Soaps", "Shampoo", "Conditioner", "Shaving Cream",
+                  "Toothbrushes", "Toothpaste", "Sleeping Bags", 
+                  "Paper Shopping Bags", "Belts", "Shoes (New to Gently Used)"]
+    },
+
+    {
+        "name": "Soles4Souls",
+        "about": "Nashville-based (Marin Focus for project)",
+        "address": "",
+        "email": "",
+        "items": []
+    },
+
+    {
+        "name": "Global Book Exchange of Marin",
+        "about": "The Global Book Exchange of Marin works with youth, educators and service clubs to deliver new homes for K-12 textbooks, library books, and educational meterials. They also offer books to families, teachers, schools, and non-profits to encourage literacy for everyone.",
+        "address": "852 Del Ganado Road, San Rafael, CA (NOT A POST OFFICE ADDRESS",
+        "email": "bookexchangemarin@gmail.com",
+        "items": ["Books"]
+    },
+
+    {
+        "name": "Marin Human Society",
+        "about": "",
+        "address": "",
+        "email": "",
+        "items": ["Towels", "Cat Food", "Dog Food", "Cat Litter", "Pet Carriers", "Yoga Mats"]
+    },
+
+    {
+        "name": "Mt. Caramel Thrift Store",
+        "about": "",
+        "address": "46 Lovell Avenue, Mill Valley, CA",
+        "email": "",
+        "items": ["Shoes", "Hats", "Come back to later"]
+    },
+
+    {
+        "name": "San Francisco Music Center",
+        "about": "",
+        "address": "",
+        "email": "",
+        "items": ["Alto Saxaphone", "Guitars (1/2, 3/4, Full Size)",
+                  "Violins (1/16, 1/10, 1/4, 1/2 Size)", "Viola (1/2, 3/4 Size)",
+                  "Cello (1/4, 1/2 Size)", "Bass Bows (1/2, 3/4 Size)",
+                  "Digital Keyboard", "Bongo Heads (Cajon, Standard Latin)",
+                  "Drum Pads", "Microphones (SM 57, SM 58)", "Small Bass Amp",
+                  "Boombox", "Guitar Cables", "Music Stands", "Video Tripods",
+                  "Cushioned Folding Chairs", "Gas Grill"]
+    },
+
+    {
+        "name": "St. Vincent de Paul Society",
+        "about": "",
+        "address": "", 
+        "email": "",
+        "items": ["Sandwich Bags", "Paper Towels", "Brooms", "Mops",
+                  "Multi-Surface Cleaner", "Socks", "Soaps", "Sleeping Bags",
+                  "Deoderant"]
+    },
+
+    {
+        "name": "ELM",
+        "about": "",
+        "address": "",
+        "email": "",
+        "items": ["Violins", "Cello", "Clarinets", "Flutes", "Oboes", "Trumpets", "Trombones"]
+    },
+
+    {
+        "name": "Halleck Creek Ranch",
+        "about": "",
+        "address": "",
+        "email": "",
+        "items": ["Paper Towels", "Toilet Paper", "Kleenex", "Ink Cartridges (Epson or HP Laserjet)", 
+                  "Helmets (Small and Medium, no more than 2 years old, Troxel or International)",
+                  "Small Manipulative Toys/Sensory Toys", "Balls (Different Weights and Textures)",
+                  "Rainbow Reins (Horse and Pony Length)", "Rope Halters with Rope Leads",
+                  "Manure Spreader", "Wheelbarrow (Large)", "Fly Spray", "Fly Masks"]
+    },
+
+    {
+        "name": "Hooves for Harmony",
+        "about": "",
+        "address": "",
+        "email": "",
+        "items": ["Helmets (Small and Medium, New or Gently Used)", "Trail Boots (Easy Boots Size 5)",
+                  "Fly Masks", "Fly Spray", "Saddle Pads (Gently Used)", "Western Headstalls (snaffle bits only)",
+                  "Paper", "Ink Cartridges", "Forever Stamps"]
+    },
+
+    {
+        "name": "Okizu",
+        "about": "",
+        "address": "",
+        "email": "",
+        "items": ["Binoculars", "Bug and Fish Nets", "Air Pump", "Fishing Poles",
+                  "Fishing Equipment", "Fish Hooks", "Ping Pong Balls", "Ping Pong Paddles",
+                  "Frisbees", "Disc Golf Discs", "Swim Goggles", "Swimsuits (Ages 6-17)",
+                  "Underwear (Ages 6-17)", "Socks (Ages 6-17)", "T-shirts (Ages 6-17)",
+                  "Shorts (Ages 6-17)", "Ziploc Bags", "Beads", "Dimensional Fabric Paint",
+                  "Poster Board", "Paint Pens", "Tacky Craft Glue", "Puff Paint", "Acrylic Paint",
+                  "Paint Brushes", "Bandanas (non-printed)", "T-Shirts (non-printed)",
+                  "White Board Markers", "Watercolor Markers", "Scisors (Kids)", "Button Maker",
+                  "Batteries (AA, AA, C, D)", "Masking Tape", "Duct Tape (Any Pattern)", "Blue Tape",
+                  "Small Alarm Clocks", "Digital Watches (Waterproof)", "Rechargable Lanterns",
+                  "Sharpies (Black Fine Point)", "Photo Paper (4x6)", "Tarps (10'x10' +)",
+                  "Brown Paper Lunch Bags", "Chapstick", "Kleenex", "Sunscreen (small)", 
+                  "Bug Spray (non-deet, small)", "Hand Sanitizer", "Notepads", "Post-It Notes", 
+                  "Copy Paper", "Folders", "Pens (Black or Blue)", "Pencils", "Staples", 
+                  "Staplers", "Tape Dispensers", "Tape"]
+    }
+]

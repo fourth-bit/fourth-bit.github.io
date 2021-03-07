@@ -1,0 +1,157 @@
+$nord0: #2e3440;
+$nord1: #3b4252;
+$nord2: #434c5e;
+$nord3: #4c566a;
+$nord4: #d8dee9;
+$nord5: #e5e9f0;
+$nord6: #eceff4;
+$nord7: #8fbcbb;
+$nord8: #88c0d0;
+$nord9: #81a1c1;
+$nord10: #5e81ac;
+$nord11: #bf616a;
+$nord12: #d08770;
+$nord13: #ebcb8b;
+$nord14: #a3be8c;
+$nord15: #b48ead;
+
+$primary: $nord8;
+$secondary: $nord9;
+$success: $nord14;
+$info: $nord15;
+$warning: $nord13;
+$danger: $nord11;
+$light: $nord6;
+$dark: $nord0;
+
+@font-face {
+    font-family: "Lato";
+    src: url(../fonts/Lato/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
+body {
+    font-family: "Lato";
+    background-color: $nord6 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Merriweather" !important;
+}
+
+.link-center {
+    display: block;
+    line-height: 4rem;
+    text-align: center;
+    margin: 0;
+}
+
+#content {
+    margin-top: 56px;
+    height: calc(100vh - 56px);
+}
+
+@media only screen and (max-height: 356px) {
+    #content.justify-content-center {
+        justify-content: flex-start !important;
+    }
+}
+
+// Pull Font Awesome
+//@import "../font-awesome/scss/regular";
+
+/*!
+ * Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+$fa-font-path: "../font-awesome/webfonts";
+$fa-font-display: block;
+
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: $fa-font-display;
+    src: url('#{$fa-font-path}/fa-solid-900.eot');
+    src: url('#{$fa-font-path}/fa-solid-900.eot?#iefix') format('embedded-opentype'),
+    url('#{$fa-font-path}/fa-solid-900.woff2') format('woff2'),
+    url('#{$fa-font-path}/fa-solid-900.woff') format('woff'),
+    url('#{$fa-font-path}/fa-solid-900.ttf') format('truetype'),
+    url('#{$fa-font-path}/fa-solid-900.svg#fontawesome') format('svg');
+  }
+
+.fa {
+    font-family: 'Font Awesome 5 Free';
+}
+
+// Pull Bootstrap
+@import "../bootstrap-4.6.0/scss/functions";
+@import "../bootstrap-4.6.0/scss/variables";
+@import "../bootstrap-4.6.0/scss/mixins";
+@import "../bootstrap-4.6.0/scss/root";
+@import "../bootstrap-4.6.0/scss/reboot";
+@import "../bootstrap-4.6.0/scss/type";
+@import "../bootstrap-4.6.0/scss/images";
+@import "../bootstrap-4.6.0/scss/code";
+@import "../bootstrap-4.6.0/scss/grid";
+@import "../bootstrap-4.6.0/scss/tables";
+@import "../bootstrap-4.6.0/scss/forms";
+@import "../bootstrap-4.6.0/scss/buttons";
+@import "../bootstrap-4.6.0/scss/transitions";
+//@import "../bootstrap-4.6.0/scss/dropdown";
+@import "../bootstrap-4.6.0/scss/button-group";
+@import "../bootstrap-4.6.0/scss/input-group";
+@import "../bootstrap-4.6.0/scss/custom-forms";
+@import "../bootstrap-4.6.0/scss/nav";
+@import "../bootstrap-4.6.0/scss/navbar";
+@import "../bootstrap-4.6.0/scss/card";
+@import "../bootstrap-4.6.0/scss/breadcrumb";
+@import "../bootstrap-4.6.0/scss/pagination";
+@import "../bootstrap-4.6.0/scss/badge";
+@import "../bootstrap-4.6.0/scss/jumbotron";
+@import "../bootstrap-4.6.0/scss/alert";
+@import "../bootstrap-4.6.0/scss/progress";
+@import "../bootstrap-4.6.0/scss/media";
+@import "../bootstrap-4.6.0/scss/list-group";
+@import "../bootstrap-4.6.0/scss/close";
+@import "../bootstrap-4.6.0/scss/toasts";
+@import "../bootstrap-4.6.0/scss/modal";
+@import "../bootstrap-4.6.0/scss/tooltip";
+@import "../bootstrap-4.6.0/scss/popover";
+@import "../bootstrap-4.6.0/scss/carousel";
+@import "../bootstrap-4.6.0/scss/spinners";
+@import "../bootstrap-4.6.0/scss/utilities";
+@import "../bootstrap-4.6.0/scss/print";
+
+.card-container {
+    .card {
+        margin-bottom: 1rem;
+    }
+
+    .card-link {
+        color: $light;
+        @include hover() {
+            color: darken($light, 15%);
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        column-count: 2;
+        column-gap: 1.25rem;
+        orphans: 1;
+        widows: 1;
+  
+        .card {
+            display: inline-block; // Don't let them vertically span multiple columns
+            width: 100%; // Don't let their width change
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        column-count: 3;
+    }
+}
