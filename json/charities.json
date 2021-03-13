@@ -57,9 +57,9 @@
     },
 
     {
-        "name": "Marin Human Society",
-        "about": "",
-        "address": "",
+        "name": "Marin Humane Society",
+        "about": "The Marin Humane Society transforms lives through exceptional care, humane education, and advocacy. Every day, they inspre compassion and positive relationships between animals and people. They wish to see a world where every animal is treated in a humane fashion. ",
+        "address": "171 Bel Marin Keys Bvld, Novato, CA",
         "email": "",
         "items": ["Towels", "Cat Food", "Dog Food", "Cat Litter", "Pet Carriers", "Yoga Mats"]
     },
@@ -74,9 +74,9 @@
 
     {
         "name": "San Francisco Music Center",
-        "about": "",
-        "address": "",
-        "email": "",
+        "about": "The San Francisco Music center makes music accessible to all people, regardless of their financial status. They believe that there is a power in music to connect people and cultures. They are a hub for sharing this music with everyone.",
+        "address": "544 Capp Street, San Francisco, CA 94110",
+        "email": "info@sfmc.org",
         "items": ["Alto Saxaphone", "Guitars (1/2, 3/4, Full Size)",
                   "Violins (1/16, 1/10, 1/4, 1/2 Size)", "Viola (1/2, 3/4 Size)",
                   "Cello (1/4, 1/2 Size)", "Bass Bows (1/2, 3/4 Size)",
@@ -88,9 +88,9 @@
 
     {
         "name": "St. Vincent de Paul Society",
-        "about": "",
-        "address": "", 
-        "email": "",
+        "about": "The St. Vincent de Paul Society strives to give care and important services to people who are struggling in Marin County. Their main programs include, the free dining room, the homeless outreach team, and the jobs stipend and employment training program. They believe that everyone deserves food, housing, and a chance for a better life.",
+        "address": "820 B Street San Rafael, CA", 
+        "email": "vmasseria@vinnins.org",
         "items": ["Sandwich Bags", "Paper Towels", "Brooms", "Mops",
                   "Multi-Surface Cleaner", "Socks", "Soaps", "Sleeping Bags",
                   "Deoderant"]
@@ -98,17 +98,17 @@
 
     {
         "name": "ELM",
-        "about": "",
-        "address": "",
-        "email": "",
+        "about": "ELM provides youth with an immersive music education and resources that inspire and empower them to pursue their dreams. ELM has seen the inequality that talent is equally distributes, but opportunities are not. ELM is one way this access divide can be address in music.",
+        "address": "2955 Kerner Blvd. Suite B, San Rafael, CA",
+        "email": "info@elmprogram.org",
         "items": ["Violins", "Cello", "Clarinets", "Flutes", "Oboes", "Trumpets", "Trombones"]
     },
 
     {
         "name": "Halleck Creek Ranch",
-        "about": "",
-        "address": "",
-        "email": "",
+        "about": "Halleck Creek Ranch invites people with disabilities, and their families, to live a “Life without barriers” through the beneficial activity of therapeutic horseback riding. Horseback riding promotes a unique sense of freedom and mobility, allowing riders to imagine the future, and to enjoy the present, in a way they never thought possible.",
+        "address": "1740 Old Rancheria Road, Nicasio, CA",
+        "email": "bfalco@halleckcreekranch.org",
         "items": ["Paper Towels", "Toilet Paper", "Kleenex", "Ink Cartridges (Epson or HP Laserjet)", 
                   "Helmets (Small and Medium, no more than 2 years old, Troxel or International)",
                   "Small Manipulative Toys/Sensory Toys", "Balls (Different Weights and Textures)",
@@ -118,8 +118,8 @@
 
     {
         "name": "Hooves for Harmony",
-        "about": "",
-        "address": "",
+        "about": "Hooves for Harmony offers horse therapy to children with special needs at Morning Star Farm in Novato. They focus on nurturing personal development in youth through volunteer service and horsemanship.",
+        "address": "855 Sutro Avenue, Novato, CA",
         "email": "",
         "items": ["Helmets (Small and Medium, New or Gently Used)", "Trail Boots (Easy Boots Size 5)",
                   "Fly Masks", "Fly Spray", "Saddle Pads (Gently Used)", "Western Headstalls (snaffle bits only)",
@@ -128,9 +128,9 @@
 
     {
         "name": "Okizu",
-        "about": "",
-        "address": "",
-        "email": "",
+        "about": "Okizu's goal is to help all members of families affected by childhood cancer to heal through peer support, respite, mentoring, and recreational programs. All of their programs are offered for free to families dealing with pediatric cancer. Any child and family who is suffering from cancer may attend regardless of their location, condition, and economic background.",
+        "address": "83 Hamilton Drive, Suite 200, Novato, CA",
+        "email": "info@okizu.org",
         "items": ["Binoculars", "Bug and Fish Nets", "Air Pump", "Fishing Poles",
                   "Fishing Equipment", "Fish Hooks", "Ping Pong Balls", "Ping Pong Paddles",
                   "Frisbees", "Disc Golf Discs", "Swim Goggles", "Swimsuits (Ages 6-17)",
