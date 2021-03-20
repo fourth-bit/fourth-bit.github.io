@@ -155,3 +155,15 @@ $fa-font-display: block;
         column-count: 3;
     }
 }
+
+.charity-link {
+    color: $nord0 !important;
+    
+    :hover {
+        background-color: lighten($secondary, 10%);
+    }
+
+    &:hover {
+        text-decoration: none !important;
+    }
+}
