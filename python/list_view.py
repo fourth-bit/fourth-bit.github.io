@@ -1,7 +1,7 @@
 import json
 import sys
 
-from . import util
+import util
 
 CHARITIES_JSON = './json/charities.json'
 LIST_TEMPLATE = './templates/list-template.html'
