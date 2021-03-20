@@ -27,7 +27,7 @@ def gen_list_view() -> str:
     """
 
     fp = open(CHARITIES_JSON)
-    charities: list = json.load(fp)
+    charities: list = json.load(fp)['charities']
     fp.close()
     
     fp = open(ROOT_TEMPLATE)
@@ -35,8 +35,10 @@ def gen_list_view() -> str:
     fp.close()
 
     # Strings are immutable
-    template = template.replace('{INSERT}', 
-    '<div class=\'container\' id=\'content\'><div class=\'card-container\'>{INSERT CHARITIES}</div></div>')
+    template = template.replace('{INSERT}', """<div class='container' id='content'>
+    <h1 class='text-center'>Charities</h1>
+    <div class='card-container'>{INSERT CHARITIES}</div>
+    </div>""")
 
     for obj in charities:
         temp = subsitute_object(LIST_TEMPLATE, obj)
