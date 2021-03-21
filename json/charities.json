@@ -151,8 +151,24 @@
     ],
     "items": [
         {
-            "category": "NULL",
-            "items": []
+            "category": "Music",
+            "items": ["Small Bass Amp", "Boombox", "Microphones (SM 57, SM 58)", "Guitars (1/2, 3/4, Full Size)", "Viola (1/2, 3/4 Size)", "Violins (1/16, 1/10, 1/4, 1/2 Size)", "Digital Keyboard", "Cello (1/4, 1/2 Size)", "Bass Bows (1/2, 3/4 Size)", "Guitar Cables", "Violins"]
+        },
+        {
+            "category": "Clothing",
+            "items": ["Socks", "Shorts (Ages 6-17)", "Shoes", "Swimsuits (Ages 6-17)", "T-shirts (Ages 6-17)", "Bandanas (non-printed)", "Swim Goggles", "Boy's Clothing (4-10)", "Shoes (New to Gently Used)", "Belts", "Girl's Clothing (4-10)"]
+        },
+        {
+            "category": "Office Supplies",
+            "items": ["Tape", "Paper", "Sharpies (Black Fine Point)", "Post-It Notes", "Poster Board", "Batteries (AA, AA, C, D)", "Paper Towels", "Hand Sanitizer", "Staples", "Staplers", "Pens (Black or Blue)", "Pencils", "Blue Tape", "Tape Dispensers", "Folders", "Copy Paper", "Notepads", "Cushioned Folding Chairs", "Ink Cartridges (Epson or HP Laserjet)", "Ink Cartridges"]
+        },
+        {
+            "category": "Craft Supplies",
+            "items": ["Paint Pens", "Scisors (Kids)", "Button Maker", "Duct Tape (Any Pattern)", "Beads", "Puff Paint", "Tacky Craft Glue", "White Board Markers"]
+        },
+        {
+            "category": "Sports Equipment",
+            "items": ["Disc Golf Discs", "Fishing Equipment", "Ping Pong Balls", "Ping Pong Paddles", "Fishing Poles", "Helmets (Small and Medium, New or Gently Used)", "Rainbow Reins (Horse and Pony Length)", "Saddle Pads (Gently Used)", "Western Headstalls (snaffle bits only)", "Helmets (Small and Medium, no more than 2 years old, Troxel or International)"]
         }
     ]
 }
