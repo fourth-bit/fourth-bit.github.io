@@ -6,3 +6,7 @@ fonts
 .sass-cache
 .vscode
 python/__pycache__
+items/*
+charities/*
+charities.html
+items.html
