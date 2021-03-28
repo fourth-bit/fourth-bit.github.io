@@ -27,6 +27,7 @@ def gen_list_view() -> str:
 
     for obj in charities:
         temp = util.subsitute_object(LIST_TEMPLATE, obj)
+        temp = temp.replace('{NAME LINK}', obj['name'].lower().replace(' ', '-'))
         insert_index = template.find('{INSERT CHARITIES}')
         template = template[:insert_index] + temp + '\n' + template[insert_index:]
     template = template.replace('{INSERT CHARITIES}', '')

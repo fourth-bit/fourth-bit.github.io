@@ -11,7 +11,7 @@
                     "Body Wash", "Lotion", "Razors", "Shaving Cream", "Face Wash",
                     "Baby Wipes", "Diapers", "Disinfecting Wipes", "Disinfecting Spray",
                     "Masks", "Small Trashbags", "Laundry Detergent", "Hand Sanitizer",
-                    "Fabric Softener", "Dryer Ssheets"]
+                    "Fabric Softener", "Dryer Sheets"]
         },
 
         {
@@ -28,7 +28,7 @@
             "about": "Moving? Cleaning out closets? Donating gently-used household items, furniture, books, gifts, clothing and collectibles to our thrift stores is an easy way to support Hospice by the Bay.",
             "address": "910 Lincoln Avenue, San Rafael, CA",
             "email": "",
-            "items": ["everything"]
+            "items": []
         },
 
         {
@@ -70,7 +70,7 @@
             "about": "",
             "address": "46 Lovell Avenue, Mill Valley, CA",
             "email": "",
-            "items": ["Shoes", "Hats", "Come back to later"]
+            "items": []
         },
 
         {
@@ -112,7 +112,7 @@
             "email": "bfalco@halleckcreekranch.org",
             "items": ["Paper Towels", "Toilet Paper", "Kleenex", "Ink Cartridges (Epson or HP Laserjet)", 
                     "Helmets (Small and Medium, no more than 2 years old, Troxel or International)",
-                    "Small Manipulative Toys/Sensory Toys", "Balls (Different Weights and Textures)",
+                    "Small Manipulative Toys", "Balls (Different Weights and Textures)",
                     "Rainbow Reins (Horse and Pony Length)", "Rope Halters with Rope Leads",
                     "Manure Spreader", "Wheelbarrow (Large)", "Fly Spray", "Fly Masks"]
         },
@@ -152,23 +152,43 @@
     "items": [
         {
             "category": "Music",
-            "items": ["Small Bass Amp", "Boombox", "Microphones (SM 57, SM 58)", "Guitars (1/2, 3/4, Full Size)", "Viola (1/2, 3/4 Size)", "Violins (1/16, 1/10, 1/4, 1/2 Size)", "Digital Keyboard", "Cello (1/4, 1/2 Size)", "Bass Bows (1/2, 3/4 Size)", "Guitar Cables", "Violins"]
+            "items": ["Small Bass Amp", "Boombox", "Microphones", "Guitars", "Viola", "Violins", "Digital Keyboard", "Cello", "Bass Bows", "Guitar Cables", "Bongo Heads", "Oboes", "Flutes", "Music Stands", "Trumpets", "Trombones", "Drum Pads", "Alto Saxaphone", "Clarinets"]
         },
         {
             "category": "Clothing",
-            "items": ["Socks", "Shorts (Ages 6-17)", "Shoes", "Swimsuits (Ages 6-17)", "T-shirts (Ages 6-17)", "Bandanas (non-printed)", "Swim Goggles", "Boy's Clothing (4-10)", "Shoes (New to Gently Used)", "Belts", "Girl's Clothing (4-10)"]
+            "items": ["T-Shirts", "Underwear", "Socks", "Shorts", "Swimsuits", "T-shirts", "Bandanas", "Swim Goggles", "Boy's Clothing", "Shoes", "Belts", "Girl's Clothing"]
         },
         {
             "category": "Office Supplies",
-            "items": ["Tape", "Paper", "Sharpies (Black Fine Point)", "Post-It Notes", "Poster Board", "Batteries (AA, AA, C, D)", "Paper Towels", "Hand Sanitizer", "Staples", "Staplers", "Pens (Black or Blue)", "Pencils", "Blue Tape", "Tape Dispensers", "Folders", "Copy Paper", "Notepads", "Cushioned Folding Chairs", "Ink Cartridges (Epson or HP Laserjet)", "Ink Cartridges"]
+            "items": ["Forever Stamps", "Photo Paper", "Masking Tape", "Tape", "Paper", "Sharpies", "Post-It Notes", "Poster Board", "Batteries", "Paper Towels", "Staples", "Staplers", "Pens", "Pencils", "Blue Tape", "Tape Dispensers", "Folders", "Copy Paper", "Notepads", "Cushioned Folding Chairs", "Ink Cartridges"]
         },
         {
             "category": "Craft Supplies",
-            "items": ["Paint Pens", "Scisors (Kids)", "Button Maker", "Duct Tape (Any Pattern)", "Beads", "Puff Paint", "Tacky Craft Glue", "White Board Markers"]
+            "items": ["Dimensional Fabric Paint", "Paint Pens", "Scisors", "Button Maker", "Duct Tape", "Beads", "Puff Paint", "Tacky Craft Glue", "White Board Markers", "Paint Brushes", "Acrylic Paint", "Watercolor Markers"]
         },
         {
             "category": "Sports Equipment",
-            "items": ["Disc Golf Discs", "Fishing Equipment", "Ping Pong Balls", "Ping Pong Paddles", "Fishing Poles", "Helmets (Small and Medium, New or Gently Used)", "Rainbow Reins (Horse and Pony Length)", "Saddle Pads (Gently Used)", "Western Headstalls (snaffle bits only)", "Helmets (Small and Medium, no more than 2 years old, Troxel or International)"]
+            "items": ["Trail Boots", "Rope Halters with Rope Leads", "Disc Golf Discs", "Fishing Equipment", "Ping Pong Balls", "Ping Pong Paddles", "Fishing Poles", "Helmets", "Rainbow Reins", "Saddle Pads", "Western Headstalls", "Frisbees", "Yoga Mats", "Fish Hooks"]
+        },
+        {
+            "category": "Hygene Items",
+            "items": ["Flushable Wipes", "Toothpaste", "Deoderant", "Toothbrushes", "Lotion", "Body Wash", "Chapstick", "Diapers", "Shampoo", "Kleenex", "Hand Soap", "Hand Sanitizer", "Baby Wipes", "Shaving Cream", "Floss", "Toilet Paper", "Masks", "Soaps", "Face Wash", "Conditioner", "Razors"]
+        },
+        {
+            "category": "Outdoors Items",
+            "items": ["Air Pump", "Gas Grill", "Bug and Fish Nets", "Sleeping Bags", "Binoculars", "Tarps", "Bug Spray", "Sunscreen", "Fly Spray", "Rechargable Lanterns"]
+        },
+        {
+            "category": "Household Items",
+            "items": ["Towels", "Laundry Detergent", "Multi-Surface Cleaner", "Small Trashbags", "Garbage Bags", "Dryer Sheets", "Fabric Softener", "Disinfecting Spray", "Disinfecting Wipes", "Dish Soap", "Dish Towels", "Mops", "Brooms", "Ziploc Bags", "Sandwich Bags", "Paper Shopping Bags", "Brown Paper Lunch Bags", "Sponges", "Hand Towels"]
+        },
+        {
+            "category": "Animal Care",
+            "items": ["Cat Food", "Dog Food", "Cat Litter", "Pet Carriers", "Fly Masks"]
+        },
+        {
+            "category": "Miscellaneous",
+            "items": ["Purses", "Jewlery", "Books", "Small Alarm Clocks", "Wheelbarrow", "Video Tripods", "Digital Watches", "Balls", "Small Manipulative Toys", "Manure Spreader"]
         }
     ]
 }

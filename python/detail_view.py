@@ -35,7 +35,7 @@ def main():
 
     for obj in objs:
         detail_view = gen_detail_view(obj)
-        fp = open(f"{sys.argv[1]}/{obj['name']}.html", 'w')
+        fp = open(f"{sys.argv[1]}/{obj['name'].lower().replace(' ', '-')}.html", 'w')
         fp.write(detail_view)
 
 if __name__ == "__main__":
