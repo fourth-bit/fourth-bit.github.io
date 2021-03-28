@@ -5,6 +5,7 @@
             "about": "Over the last 30 years, Adopt A Family has helped to prevent the road to homelessness which families face. Their goal is no homeless children living in Marin. They help families stay stable in their fight against poverty.",
             "address": "35 Mitchell Bvld. Suite 16, San Rafael, CA",
             "email": "jaqueline@adoptafamily.org",
+            "website": "https://adoptafamily.org",
             "items": ["Sponges", "Dish Soap", "Dish Towels", "Multi-Surface Cleaner",
                     "Garbage Bags", "Hand Soap", "Hand Towels", "Flushable Wipes",
                     "Toothbrushes", "Toothpaste", "Floss", "Shampoo", "Conditioner",
@@ -19,6 +20,7 @@
             "about": "Bloom provides the seeds for successful transitions, clothing, life skills, hope for men, women and children.",
             "address": "1557 Fourth Street, San Rafael, CA",
             "email": "info@bloommarin.org",
+            "website": "https://bloommarin.org",
             "items": ["Girl's Clothing (4-10)", "Boy's Clothing (4-10)",
                     "Purses", "Jewlery"]
         },
@@ -28,6 +30,7 @@
             "about": "Moving? Cleaning out closets? Donating gently-used household items, furniture, books, gifts, clothing and collectibles to our thrift stores is an easy way to support Hospice by the Bay.",
             "address": "910 Lincoln Avenue, San Rafael, CA",
             "email": "",
+            "website": "https://hospicebythebay.org/support-us/donate-now/thrift-stores/",
             "items": []
         },
 
@@ -36,17 +39,10 @@
             "about": "The Ritter Center's mission is to prevent homelessness and improve the health and well-being of individuals and families who are homeless or low-income by providing a range of culturally sensitive, easily accessible, high quality medical care and social services.",
             "address": "16 Ritter Street, San Rafael, CA",
             "email": "development@rittercenter.org",
+            "website": "https://rittercenter.org",
             "items": ["Soaps", "Shampoo", "Conditioner", "Shaving Cream",
                     "Toothbrushes", "Toothpaste", "Sleeping Bags", 
                     "Paper Shopping Bags", "Belts", "Shoes (New to Gently Used)"]
-        },
-
-        {
-            "name": "Soles4Souls",
-            "about": "Nashville-based (Marin Focus for project)",
-            "address": "",
-            "email": "",
-            "items": []
         },
 
         {
@@ -54,6 +50,7 @@
             "about": "The Global Book Exchange of Marin works with youth, educators and service clubs to deliver new homes for K-12 textbooks, library books, and educational meterials. They also offer books to families, teachers, schools, and non-profits to encourage literacy for everyone.",
             "address": "852 Del Ganado Road, San Rafael, CA (NOT A POST OFFICE ADDRESS",
             "email": "bookexchangemarin@gmail.com",
+            "website": "https://www.bookexchangemarin.org/",
             "items": ["Books"]
         },
 
@@ -62,6 +59,7 @@
             "about": "The Marin Humane Society transforms lives through exceptional care, humane education, and advocacy. Every day, they inspre compassion and positive relationships between animals and people. They wish to see a world where every animal is treated in a humane fashion. ",
             "address": "171 Bel Marin Keys Bvld, Novato, CA",
             "email": "",
+            "website": "https://www.marinhumane.org",
             "items": ["Towels", "Cat Food", "Dog Food", "Cat Litter", "Pet Carriers", "Yoga Mats"]
         },
 
@@ -78,6 +76,7 @@
             "about": "The San Francisco Music center makes music accessible to all people, regardless of their financial status. They believe that there is a power in music to connect people and cultures. They are a hub for sharing this music with everyone.",
             "address": "544 Capp Street, San Francisco, CA 94110",
             "email": "info@sfmc.org",
+            "website": "https://sfcmc.org/",
             "items": ["Alto Saxaphone", "Guitars (1/2, 3/4, Full Size)",
                     "Violins (1/16, 1/10, 1/4, 1/2 Size)", "Viola (1/2, 3/4 Size)",
                     "Cello (1/4, 1/2 Size)", "Bass Bows (1/2, 3/4 Size)",
@@ -91,7 +90,8 @@
             "name": "St. Vincent de Paul Society",
             "about": "The St. Vincent de Paul Society strives to give care and important services to people who are struggling in Marin County. Their main programs include, the free dining room, the homeless outreach team, and the jobs stipend and employment training program. They believe that everyone deserves food, housing, and a chance for a better life.",
             "address": "820 B Street San Rafael, CA", 
-            "email": "vmasseria@vinnins.org",
+            "email": "vmasseria@vinnies.org",
+            "website": "https://www.vinnies.org/",
             "items": ["Sandwich Bags", "Paper Towels", "Brooms", "Mops",
                     "Multi-Surface Cleaner", "Socks", "Soaps", "Sleeping Bags",
                     "Deoderant"]
@@ -102,6 +102,7 @@
             "about": "ELM provides youth with an immersive music education and resources that inspire and empower them to pursue their dreams. ELM has seen the inequality that talent is equally distributes, but opportunities are not. ELM is one way this access divide can be address in music.",
             "address": "2955 Kerner Blvd. Suite B, San Rafael, CA",
             "email": "info@elmprogram.org",
+            "website": "https://elmprogram.org",
             "items": ["Violins", "Cello", "Clarinets", "Flutes", "Oboes", "Trumpets", "Trombones"]
         },
 
@@ -110,6 +111,7 @@
             "about": "Halleck Creek Ranch invites people with disabilities, and their families, to live a “Life without barriers” through the beneficial activity of therapeutic horseback riding. Horseback riding promotes a unique sense of freedom and mobility, allowing riders to imagine the future, and to enjoy the present, in a way they never thought possible.",
             "address": "1740 Old Rancheria Road, Nicasio, CA",
             "email": "bfalco@halleckcreekranch.org",
+            "website": "https://halleckcreekranch.org",
             "items": ["Paper Towels", "Toilet Paper", "Kleenex", "Ink Cartridges (Epson or HP Laserjet)", 
                     "Helmets (Small and Medium, no more than 2 years old, Troxel or International)",
                     "Small Manipulative Toys", "Balls (Different Weights and Textures)",
@@ -122,6 +124,7 @@
             "about": "Hooves for Harmony offers horse therapy to children with special needs at Morning Star Farm in Novato. They focus on nurturing personal development in youth through volunteer service and horsemanship.",
             "address": "855 Sutro Avenue, Novato, CA",
             "email": "",
+            "website": "https://www.hoovesforharmony.org/",
             "items": ["Helmets (Small and Medium, New or Gently Used)", "Trail Boots (Easy Boots Size 5)",
                     "Fly Masks", "Fly Spray", "Saddle Pads (Gently Used)", "Western Headstalls (snaffle bits only)",
                     "Paper", "Ink Cartridges", "Forever Stamps"]
@@ -132,6 +135,7 @@
             "about": "Okizu's goal is to help all members of families affected by childhood cancer to heal through peer support, respite, mentoring, and recreational programs. All of their programs are offered for free to families dealing with pediatric cancer. Any child and family who is suffering from cancer may attend regardless of their location, condition, and economic background.",
             "address": "83 Hamilton Drive, Suite 200, Novato, CA",
             "email": "info@okizu.org",
+            "website": "http://okizu.org",
             "items": ["Binoculars", "Bug and Fish Nets", "Air Pump", "Fishing Poles",
                     "Fishing Equipment", "Fish Hooks", "Ping Pong Balls", "Ping Pong Paddles",
                     "Frisbees", "Disc Golf Discs", "Swim Goggles", "Swimsuits (Ages 6-17)",
@@ -147,6 +151,37 @@
                     "Bug Spray (non-deet, small)", "Hand Sanitizer", "Notepads", "Post-It Notes", 
                     "Copy Paper", "Folders", "Pens (Black or Blue)", "Pencils", "Staples", 
                     "Staplers", "Tape Dispensers", "Tape"]
+        },
+        {
+            "name": "Forwords Literacy Lab",
+            "about": "Forwards is an educational organization which seeks to bring literacy to everyone. They help students overcome language, cultural, and economic barriers. Their work focuses on making sure that all of their student will become confident and productive members of society.",
+            "address": "361 Third St., Suite I, San Rafael, CA. 94901",
+            "website": "https://www.forwords.org",
+            "items": ["Laptops (Newer and in good condition)", "Photography Equipment", "Pens", "Pencils", "Pencil Sharpeners", "Office Supplies [Category]", "Notebooks", "Craft Supplies [Category]", "Non-perishable food"]
+        },
+        {
+            "name": "Downtown Streets Team",
+            "about": "The Downtown Streets Team help homeless people in Marin and other areas. They treat the people who they help with dignity and they make them feel empowered. Those who they help work on projects with them. The Downtown Streets Team's ultimate goal is to transition the people who the help into empoyment and having a job. They believe that having a job restores hope and creates opportunity, so the Downtown Streets Team helps homeless people do this.",
+            "address": "532 4th St., San Rafael, CA 94901",
+            "website": "https://www.streetsteam.org",
+            "email": "development@streetsteam.org",
+            "items": ["Ziploc Bags (Gallon Size)", "Socks", "Hand Soap (Liquid)", "Masks", "Shampoo", "Conditioner", "Hand Sanitizer", "Toothbrushes", "Toothpaste", "Razors", "Shaving Cream", "Non-perishable food", "Female Hygiene Products", "Pumice Stone", "Moise Towelettes (Single Use)", "Gum", "Beanie", "Chapstick", "Gloves", "Poncho", "Sunscreen", "Aloe Vera"]
+        },
+        { 
+            "name": "Side by Side",
+            "about": "At Side by Side they walk with young people impacted by adversity on their unique journeys to heal from trauma, restore resilience, and embrace their own potential.They provide critical services to satisfy the young people's needs, and set them on a positive path away from dangerous conditions and behaviors.",
+            "address": "300 Sunny Hills Drive, Bldg. #5 San Anselmo, CA 94960",
+            "website": "https://www.sidebysideyouth.org/",
+            "email": "plufrano@sidebysideyouth.org",
+            "items": ["Sofas", "Tables", "Chairs", "Lamps", "Furiture"]
+        },
+        { 
+            "name": "Community Action Marin",
+            "about": "Community Action Marin strives for everyone in Marin to achieve well being by getting educational, health, and other essential servies. They cover financial emergencies, they provide child care and early childhood education, they help people manage their mental health, and so much more. They are willing to help anyone along their road to properity.",
+            "address": "555 Northgate Drive San Rafael, CA 94903",
+            "website": "http://camarin.org",
+            "email": "cam@camarin.org",
+            "items": ["Sleeping Bags (30 degrees fahrenheit or less)", "Towels", "Tents (1 or 2 person)", "Sheets (Twin or Queen)", "Conforter Set (Twin or Queen)", "Mice", "Chairs", "Standing Desks", "Keyboards", "Footrests", "Pressure Relief Cushions", "Anti-Fatigue Floor Mats", "Paper"]
         }
     ],
     "items": [
