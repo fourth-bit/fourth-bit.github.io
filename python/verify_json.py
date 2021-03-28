@@ -23,7 +23,9 @@ def main():
     
     if len(all_items) > 0:
         print(all_items)
-        raise SystemExit(128)
+        inp = input("Error with json. Continue website generation? [y/n]: ")
+        if inp.lower() != 'y':
+            raise SystemExit(128)
     raise SystemExit(0)
 
 if __name__ == "__main__":
