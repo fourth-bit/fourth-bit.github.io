@@ -2,17 +2,21 @@ CSS_DIR = ./css
 CHARITIES_DIR = ./charities
 ITEMS_DIR = ./items
 
-.PHONY: css html
+.PHONY: css html dependencies
 
 all: css html
 
-css:
-	@echo "CSS TIME"
+dependencies:
+	@echo "Checking Dependencies"
+	python python/check_dependencies.py
+
+css: dependencies
+	@echo "CSS generation"
 	[ -d $(CSS_DIR) ] || (mkdir -p $(CSS_DIR); echo "Created css directory")
 	sassc scss/custom.scss css/bootstrap.css
 
-html:
-	@echo "PYTHON SCRIPTS RUNNING"
+html: dependencies
+	@echo "HTML generation with python"
 	[ -d $(CHARITIES_DIR) ] || (mkdir -p $(CHARITIES_DIR); echo "Created charities directory")
 	[ -d $(ITEMS_DIR) ] || (mkdir -p $(ITEMS_DIR); echo "Created items directory")
 	python python/verify_json.py
