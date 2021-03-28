@@ -1,0 +1,30 @@
+import json
+
+JSON = 'json/charities.json'
+
+def main():
+    fp = open(JSON)
+    objs = json.load(fp)
+    charities = objs['charities']
+    items = objs['items']
+    fp.close()
+
+    all_items = set()
+
+    for x in charities:
+        for y in x['items']:
+            if y.find('(') != -1:
+                y = y[:y.find('(')].strip()
+            all_items.add(y)
+    
+    for x in items:
+        for y in x['items']:
+            all_items.remove(y)
+    
+    if len(all_items) > 0:
+        print(all_items)
+        raise SystemExit(128)
+    raise SystemExit(0)
+
+if __name__ == "__main__":
+    main()
