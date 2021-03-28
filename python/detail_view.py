@@ -17,9 +17,11 @@ def gen_detail_view(obj):
 
     for item in obj['items']:
         temp = \
-  f"""<div class="col-6 col-sm-4 col-lg-3 p-0">
-        <p class="text-center m-1 border-dark border">{item}</p>
-      </div>"""
+f"""<div class="col-6 col-sm-4 col-lg-3 p-0">
+    <a class="text-dark" href="/items/{item.lower().replace(' ', '-')}.html">
+        <p class="text-center m-1 border-dark border rounded bg-success">{item}</p>
+    </a>
+</div>"""
         index = template.find("{INSERT ITEMS}")
         template = template[:index] + temp + template[index:]
     
