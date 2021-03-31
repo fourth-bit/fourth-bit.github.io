@@ -1,7 +1,12 @@
 <div class="container" id="content">
     <h1 class="text-center">{name}</h1>
     <p style="font-size: 1.2rem;">{about}</p>
-    <p>You can find them at<br>{address}<br>{email}<br>{website}</p>
+    <div class="mt-5 mb-5">
+      <h3>You can find them</h3>
+      <p><a class="text-info" href="{website}">Online Here!</a></p>
+      <p>In the real world, here: <a class="text-info" href="https://google.com/maps/place/{INSERT FORMATTED ADDRESS}">{address}</a></p>
+      <p>Through email here: <a class="text-info" href="mailto:{email}">{email}</a></p>
+    </div>
     <h3 class="text-center">Items they accept:</h3>
     <div class="row">
       {INSERT ITEMS}

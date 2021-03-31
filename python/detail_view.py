@@ -13,6 +13,7 @@ def gen_detail_view(obj):
     fp.close()
 
     temp = util.subsitute_object(DETAIL_TEMPLATE_LOCATION, obj)
+    temp = temp.replace('{INSERT FORMATTED ADDRESS}', obj['address'].replace(' ', '+'))
     template = template.replace('{INSERT}', temp) # Strings are immutable
 
     for item in obj['items']:
