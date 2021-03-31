@@ -6,6 +6,7 @@ import util
 DETAIL_TEMPLATE = "templates/items-detail-template.html"
 LIST_TEMPLATE = "templates/items-template.html"
 ROOT_TEMPLATE = "templates/default.html"
+CHARITY_LIST_VIEW = "templates/list-template.html"
 ITEMS_JSON = "json/charities.json"
 
 def gen_list_view():
@@ -62,32 +63,30 @@ def gen_detail_views():
 
     template = template.replace('{INSERT}', 
 """
-<div class='container' id='content'>
-    {INSERT DETAIL VIEW}
-</div>
+{INSERT DETAIL VIEW}
 """
     )
 
     return_dict = {}
 
-    for x in objs:
-        for name in x['items']: # 2-dimensional array
-            fp = open(DETAIL_TEMPLATE)
-            temp = fp.read()
-            fp.close()
-            temp = temp.replace('{name}', name)
-            for charity in charities:
-                if name in [item.split('(')[0].strip() for item in charity['items']]:
-                    index = temp.find('{INSERT CHARITIES}')
-                    temp = temp[:index] + \
-f"""
-<div>
-    <p>{charity['name']}</p>
-</div>
-""" \
-                           + temp[:index]
-            temp = temp.replace('{INSERT CHARITIES}', '')
-            return_dict[name] = template.replace('{INSERT DETAIL VIEW}', temp)
+    for name in [y for obj in objs for y in obj['items']]:
+        fp = open(DETAIL_TEMPLATE)
+        temp = fp.read()
+        fp.close()
+        temp = temp.replace('{name}', name)
+        for charity in [x for x in charities if name in ''.join(x['items'])]:
+            index = temp.find('{INSERT CHARITIES}')
+
+            if len(charity['about']) > 150:
+                charity['about'] = charity['about'][:147] + ' ...'
+
+            temp = temp[:index]\
+                + util.subsitute_object(CHARITY_LIST_VIEW, charity)\
+                        .replace('{NAME LINK}',
+                        charity['name'].replace(' ', '-').lower())\
+                + temp[index:]
+        temp = temp.replace('{INSERT CHARITIES}', '')
+        return_dict[name] = template.replace('{INSERT DETAIL VIEW}', temp)
     return return_dict
 
 def main():
