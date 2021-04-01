@@ -31,7 +31,6 @@ def main():
         inp = input("Error with json. Continue website generation? [y/n]: ")
         if inp.lower() != 'y':
             raise SystemExit(128)
-    raise SystemExit(0)
 
 if __name__ == "__main__":
     main()
