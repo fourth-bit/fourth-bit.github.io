@@ -14,6 +14,8 @@ def get_charities_with_item(charities: list, name: str) -> list:
     Parameters:
         1: List of Dictionaries (The charities)
         2: String (The item we are looking for)
+    Return Value:
+        List of all of the charities (dictionaries) with the item
     """
 
     fp = open(ITEMS_JSON)
