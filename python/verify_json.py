@@ -1,6 +1,7 @@
 import json
 
 JSON = 'json/charities.json'
+DIRECTIVES = ['[Category]', '[Skip]']
 
 def main():
     fp = open(JSON)
@@ -13,9 +14,13 @@ def main():
 
     for x in charities:
         for y in x['items']:
-            if y.find('(') != -1:
-                y = y[:y.find('(')].strip()
-            all_items.add(y)
+            for z in DIRECTIVES:
+                if z in y:
+                    break
+            else:
+                if y.find('(') != -1:
+                    y = y[:y.find('(')].strip()
+                all_items.add(y)
     
     for x in items:
         for y in x['items']:
