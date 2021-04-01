@@ -14,6 +14,8 @@ css: dependencies
 	@echo "CSS generation"
 	[ -d $(CSS_DIR) ] || (mkdir -p $(CSS_DIR); echo "Created css directory")
 	sassc scss/custom.scss css/bootstrap.css
+	./node_modules/.bin/postcss css/bootstrap.css --use autoprefixer -o css/prefixed.css --no-map
+	./node_modules/.bin/uglifycss css/prefixed.css --output css/style.css
 
 html: dependencies
 	@echo "HTML generation with python"
