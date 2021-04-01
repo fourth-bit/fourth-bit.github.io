@@ -1,7 +1,7 @@
 import json
 
 JSON = 'json/charities.json'
-DIRECTIVES = ['[Category]', '[Skip]']
+DIRECTIVES = ['[Category]', '[Skip]', '[Thrift Store]']
 
 def main():
     fp = open(JSON)

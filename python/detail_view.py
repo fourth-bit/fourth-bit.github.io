@@ -43,6 +43,13 @@ def gen_detail_view(obj):
     temp = temp.replace('{INSERT FORMATTED ADDRESS}', obj['address'].replace(' ', '+'))
     template = template.replace('{INSERT}', temp) # Strings are immutable
 
+    if obj['email'] == '':
+        template = template.replace("Through email here:", '')
+
+    if obj['items'][0] == '[Thrift Store]':
+        template = template.replace('Items they accept:', 'This organization is a thrift store, for more information about what they accept, please visit their website').replace('{INSERT ITEMS}', '')
+        return template
+
     for item in get_charity_items(obj):
         temp = \
 f"""<div class="col-6 col-sm-4 col-lg-3 p-0">

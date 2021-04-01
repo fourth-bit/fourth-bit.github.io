@@ -8,7 +8,6 @@
             "website": "https://adoptafamily.org",
             "items": ["Sponges", "Dish Soap", "Dish Towels", "Multi-Surface Cleaner","Garbage Bags", "Hand Soap", "Hand Towels", "Flushable Wipes","Toothbrushes", "Toothpaste", "Floss", "Shampoo", "Conditioner","Body Wash", "Lotion", "Razors", "Shaving Cream", "Face Wash","Baby Wipes", "Diapers", "Disinfecting Wipes", "Disinfecting Spray","Masks", "Small Trashbags", "Laundry Detergent", "Hand Sanitizer","Fabric Softener", "Dryer Sheets"]
         },
-
         {
             "name": "Bloom Marin",
             "about": "Bloom provides the seeds for successful transitions, clothing, life skills, hope for men, women and children.",
@@ -17,16 +16,14 @@
             "website": "https://bloommarin.org",
             "items": ["Girl's Clothing (4-10)", "Boy's Clothing (4-10)","Purses", "Jewlery"]
         },
-
         {
             "name": "Hospice of Marin Hodgepoge",
             "about": "Moving? Cleaning out closets? Donating gently-used household items, furniture, books, gifts, clothing and collectibles to our thrift stores is an easy way to support Hospice by the Bay.",
             "address": "910 Lincoln Avenue, San Rafael, CA",
             "email": "",
-            "website": "https://hospicebythebay.org/support-us/donate-now/thrift-stores/",
-            "items": []
+            "website": "https://bythebayhealth.org/thrift-stores/",
+            "items": ["[Thrift Store]"]
         },
-
         {
             "name": "Ritter Center",
             "about": "The Ritter Center's mission is to prevent homelessness and improve the health and well-being of individuals and families who are homeless or low-income by providing a range of culturally sensitive, easily accessible, high quality medical care and social services.",
@@ -35,7 +32,6 @@
             "website": "https://rittercenter.org",
             "items": ["Soaps", "Shampoo", "Conditioner", "Shaving Cream","Toothbrushes", "Toothpaste", "Sleeping Bags", "Paper Shopping Bags", "Belts", "Shoes (New to Gently Used)"]
         },
-
         {
             "name": "Global Book Exchange of Marin",
             "about": "The Global Book Exchange of Marin works with youth, educators and service clubs to deliver new homes for K-12 textbooks, library books, and educational meterials. They also offer books to families, teachers, schools, and non-profits to encourage literacy for everyone.",
@@ -44,7 +40,6 @@
             "website": "https://www.bookexchangemarin.org/",
             "items": ["Books"]
         },
-
         {
             "name": "Marin Humane Society",
             "about": "The Marin Humane Society transforms lives through exceptional care, humane education, and advocacy. Every day, they inspre compassion and positive relationships between animals and people. They wish to see a world where every animal is treated in a humane fashion. ",
@@ -53,15 +48,6 @@
             "website": "https://www.marinhumane.org",
             "items": ["Towels", "Cat Food", "Dog Food", "Cat Litter", "Pet Carriers", "Yoga Mats"]
         },
-
-        {
-            "name": "Mt. Caramel Thrift Store",
-            "about": "",
-            "address": "46 Lovell Avenue, Mill Valley, CA",
-            "email": "",
-            "items": []
-        },
-
         {
             "name": "San Francisco Music Center",
             "about": "The San Francisco Music center makes music accessible to all people, regardless of their financial status. They believe that there is a power in music to connect people and cultures. They are a hub for sharing this music with everyone.",
@@ -70,7 +56,6 @@
             "website": "https://sfcmc.org/",
             "items": ["Alto Saxaphone", "Guitars (1/2, 3/4, Full Size)", "Violins (1/16, 1/10, 1/4, 1/2 Size)", "Viola (1/2, 3/4 Size)", "Cello (1/4, 1/2 Size)", "Bass Bows (1/2, 3/4 Size)", "Digital Keyboard", "Bongo Heads (Cajon, Standard Latin)", "Drum Pads", "Microphones (SM 57, SM 58)", "Small Bass Amp", "Boombox", "Guitar Cables", "Music Stands", "Video Tripods", "Cushioned Folding Chairs", "Gas Grill"]
         },
-
         {
             "name": "St. Vincent de Paul Society",
             "about": "The St. Vincent de Paul Society strives to give care and important services to people who are struggling in Marin County. Their main programs include, the free dining room, the homeless outreach team, and the jobs stipend and employment training program. They believe that everyone deserves food, housing, and a chance for a better life.",
@@ -79,34 +64,30 @@
             "website": "https://www.vinnies.org/",
             "items": ["Sandwich Bags", "Paper Towels", "Brooms", "Mops","Multi-Surface Cleaner", "Socks", "Soaps", "Sleeping Bags", "Deoderant"]
         },
-
         {
             "name": "ELM",
-            "about": "ELM provides youth with an immersive music education and resources that inspire and empower them to pursue their dreams. ELM has seen the inequality that talent is equally distributes, but opportunities are not. ELM is one way this access divide can be address in music.",
+            "about": "ELM provides youth with an immersive music education and resources that inspire and empower them to pursue their dreams. ELM has seen the inequality that talent is equally distributed, but opportunities are not. ELM is one way this access divide can be addressed in music.",
             "address": "2955 Kerner Blvd. Suite B, San Rafael, CA",
             "email": "info@elmprogram.org",
             "website": "https://elmprogram.org",
             "items": ["Violins", "Cello", "Clarinets", "Flutes", "Oboes", "Trumpets", "Trombones"]
         },
-
         {
             "name": "Halleck Creek Ranch",
-            "about": "Halleck Creek Ranch invites people with disabilities, and their families, to live a “Life without barriers” through the beneficial activity of therapeutic horseback riding. Horseback riding promotes a unique sense of freedom and mobility, allowing riders to imagine the future, and to enjoy the present, in a way they never thought possible.",
+            "about": "Halleck Creek Ranch invites people with disabilities, and their families, to live a \"Life without barriers\" through the beneficial activity of therapeutic horseback riding. Horseback riding promotes a unique sense of freedom and mobility, allowing riders to imagine the future, and to enjoy the present, in a way they never thought possible.",
             "address": "1740 Old Rancheria Road, Nicasio, CA",
             "email": "bfalco@halleckcreekranch.org",
             "website": "https://halleckcreekranch.org",
             "items": ["Paper Towels", "Toilet Paper", "Kleenex", "Ink Cartridges (Epson or HP Laserjet)", "Horseback Riding Helmets (Small and Medium, no more than 2 years old, Troxel or International)", "Small Manipulative Toys", "Balls (Different Weights and Textures)", "Rainbow Reins (Horse and Pony Length)", "Rope Halters with Rope Leads", "Manure Spreader", "Wheelbarrow (Large)", "Fly Spray", "Fly Masks"]
         },
-
         {
             "name": "Hooves for Harmony",
             "about": "Hooves for Harmony offers horse therapy to children with special needs at Morning Star Farm in Novato. They focus on nurturing personal development in youth through volunteer service and horsemanship.",
             "address": "855 Sutro Avenue, Novato, CA",
-            "email": "",
+            "email": "https://www.hoovesforharmony.org/contacct-us",
             "website": "https://www.hoovesforharmony.org/",
             "items": ["Horseback Riding Helmets (Small and Medium, New or Gently Used)", "Trail Boots (Easy Boots Size 5)", "Fly Masks", "Fly Spray", "Saddle Pads (Gently Used)", "Western Headstalls (snaffle bits only)", "Paper", "Ink Cartridges", "Forever Stamps"]
         },
-
         {
             "name": "Okizu",
             "about": "Okizu's goal is to help all members of families affected by childhood cancer to heal through peer support, respite, mentoring, and recreational programs. All of their programs are offered for free to families dealing with pediatric cancer. Any child and family who is suffering from cancer may attend regardless of their location, condition, and economic background.",
@@ -120,6 +101,7 @@
             "about": "Forwards is an educational organization which seeks to bring literacy to everyone. They help students overcome language, cultural, and economic barriers. Their work focuses on making sure that all of their student will become confident and productive members of society.",
             "address": "361 Third St., Suite I, San Rafael, CA. 94901",
             "website": "https://www.forwords.org",
+            "email": "gail@forwords.org",
             "items": ["Laptops (Newer and in good condition)", "Photography Equipment", "Pens", "Pencils", "Pencil Sharpeners", "Office Supplies [Category]", "Notebooks", "Craft Supplies [Category]", "Non-perishable food"]
         },
         {
@@ -148,7 +130,7 @@
         },
         {
             "name": "Trips for Kids Marin",
-            "about": "Trips for Kids Marin provides biking experiences for kids who are underprivilaged. They inspire a healthy lifestyle through teaching the kids biking. The kids are also helped to understand their positive value and the wonders of being outdoors in nature.",
+            "about": "Trips for Kids Marin provides biking experiences for kids who are underprivilaged. They inspire a healthy lifestyle through teaching the kids biking. The kids are also helped to understand their positive value and the wonders of being outdoors and in nature.",
             "address": "610 4th Street, San Rafael",
             "email": "jonathan@tripsforkidsmarin.org",
             "website": "https://www.tripsforkidsmarin.org",
@@ -164,7 +146,7 @@
         },
         {
             "name": "SCRAP SF",
-            "about": "SCRAP is a creative resue center in San Francisco. They put new life into craft supplies, and they annually divert 200 tons pf materials from the landfill. SCRAP is a place for the community to find materials for educational programs, createive projects, and their classrooms. They deliver underprivilaged students art kits and instruction, and so much more.",
+            "about": "SCRAP is a creative resue center in San Francisco. They put new life into craft supplies, and they annually divert 200 tons of materials from the landfill. SCRAP is a place for the community to find materials for educational programs, createive projects, and their classrooms. They deliver underprivilaged students art kits and instruction, and so much more.",
             "address": "2150 Newcomb Avenue San Francisco, CA 94124",
             "email": "donate@scrap-sf.org",
             "website": "https://www.scrap-sf.org",
