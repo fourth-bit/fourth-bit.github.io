@@ -9,7 +9,32 @@ ROOT_TEMPLATE = "templates/default.html"
 CHARITY_LIST_VIEW = "templates/list-template.html"
 ITEMS_JSON = "json/charities.json"
 
-def gen_list_view():
+def get_charities_with_item(charities: list, name: str) -> list:
+    """Gets a charities with a certain item.
+    Parameters:
+        1: List of Dictionaries (The charities)
+        2: String (The item we are looking for)
+    """
+
+    fp = open(ITEMS_JSON)
+    items = json.load(fp)['items'] # Need this for category expansion
+    fp.close()
+
+    categories = [x['category'].lower() for x in items]
+
+    answer = []
+    for charity in charities:
+        for item in charity['items']:
+            if name in item:
+                answer.append(charity)
+            elif '[Category]' in item:
+                category = item[:item.find('[')].strip().lower()
+                items_in_category = items[categories.index(category)]['items']
+                if name in items_in_category:
+                    answer.append(charity)
+    return answer
+
+def gen_list_view() -> str:
     fp = open(ITEMS_JSON)
     objs: list = json.load(fp)['items']
     objs.sort(key=lambda x: x['category'])
@@ -50,7 +75,7 @@ def gen_list_view():
     template = template.replace('{INSERT LIST}', '')
     return template
 
-def gen_detail_views():
+def gen_detail_views() -> dict:
     fp = open(ITEMS_JSON)
     objs: list = json.load(fp)['items']
     fp.seek(0)
@@ -74,7 +99,7 @@ def gen_detail_views():
         temp = fp.read()
         fp.close()
         temp = temp.replace('{name}', name)
-        for charity in [x for x in charities if name in ''.join(x['items'])]:
+        for charity in get_charities_with_item(charities, name):
             index = temp.find('{INSERT CHARITIES}')
 
             if len(charity['about']) > 150:
