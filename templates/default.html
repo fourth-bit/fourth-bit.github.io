@@ -8,6 +8,7 @@
   <script src="/js/jquery.min.js"></script>
   <script src="/js/popper.min.js"></script>
   <script src="/bootstrap-4.6.0/dist/js/bootstrap.min.js"></script>
+  <script src="/js/lunr.min.js"></script>
 </head>
 <body>
   <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top shadow-sm">
@@ -30,12 +31,12 @@
           <a class="nav-link" href="/items.html">By Item</a>
         </li>
       </ul>
-      <form class="navbar-form ml-auto justify-content-end" action="search" name="q">
+      <form class="navbar-form ml-auto justify-content-end" action="/search.html">
         <div class="input-group">
           <div class="input-group-prepend">
             <button class="btn fa bg-primary" type="submit"></button>
           </div>
-          <input class="form-control" type="search" placeholder="Search">
+          <input class="form-control" type="search" placeholder="Search" name="q">
         </div>
       </form>
     </div>
