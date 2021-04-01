@@ -7,6 +7,33 @@ DETAIL_TEMPLATE_LOCATION = "templates/detail-template.html"
 ROOT_TEMPLATE = "templates/default.html"
 CHARITIES_JSON = 'json/charities.json'
 
+def get_charity_items(charity: dict) -> list:
+    """Gets all the items the charity accepts.
+    Parameters:
+        1: Dictionary (Target charity)
+    Return Value:
+        List of all items the charity accepts
+    """
+
+    fp = open(CHARITIES_JSON)
+    items_json = json.load(fp)['items']
+    fp.close()
+
+    categories = [x['category'].lower() for x in items_json]
+
+    items = []
+
+    for item in charity['items']:
+        if '[Category]' in item:
+            category = item[:item.find("[Category]")].strip().lower()
+            items_in_category = items_json[categories.index(category)]['items']
+            items.extend(items_in_category)
+        elif '[Skip]' in item:
+            continue
+        else:
+            items.append(item)
+    return items
+
 def gen_detail_view(obj):
     fp = open(ROOT_TEMPLATE)
     template: str = fp.read()
@@ -16,7 +43,7 @@ def gen_detail_view(obj):
     temp = temp.replace('{INSERT FORMATTED ADDRESS}', obj['address'].replace(' ', '+'))
     template = template.replace('{INSERT}', temp) # Strings are immutable
 
-    for item in obj['items']:
+    for item in get_charity_items(obj):
         temp = \
 f"""<div class="col-6 col-sm-4 col-lg-3 p-0">
     <a class="text-dark" href="/items/{item.lower().replace(' ', '-')}.html">
