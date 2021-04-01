@@ -2,6 +2,7 @@
   "dependencies": {
     "autoprefixer": "^10.2.5",
     "postcss-cli": "^8.3.1",
-    "uglify-js": "^3.13.0"
+    "uglify-js": "^3.13.3",
+    "uglifycss": "^0.0.29"
   }
 }

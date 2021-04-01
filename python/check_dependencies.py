@@ -13,7 +13,7 @@ def check_dependencies():
         inp = input('Fonts are missing. Continue with website generation? [y/n]: ')
         if inp.lower() != 'y':
             raise SystemExit(128)
-    if npm.find('autoprefixer') == -1 or npm.find('postcss-cli') == -1 or npm.find('uglify-js') == -1:
+    if npm.find('autoprefixer') == -1 or npm.find('postcss-cli') == -1 or npm.find('uglify-js') == -1 or npm.find('uglifycss') == -1:
         inp = input('NPM packages are missing. Run npm install to get them. Continue with website generation? [y/n]: ')
         if inp.lower() != 'y':
             raise SystemExit(128)
