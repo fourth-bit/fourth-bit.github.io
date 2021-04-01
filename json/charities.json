@@ -6,13 +6,7 @@
             "address": "35 Mitchell Bvld. Suite 16, San Rafael, CA",
             "email": "jaqueline@adoptafamily.org",
             "website": "https://adoptafamily.org",
-            "items": ["Sponges", "Dish Soap", "Dish Towels", "Multi-Surface Cleaner",
-                    "Garbage Bags", "Hand Soap", "Hand Towels", "Flushable Wipes",
-                    "Toothbrushes", "Toothpaste", "Floss", "Shampoo", "Conditioner",
-                    "Body Wash", "Lotion", "Razors", "Shaving Cream", "Face Wash",
-                    "Baby Wipes", "Diapers", "Disinfecting Wipes", "Disinfecting Spray",
-                    "Masks", "Small Trashbags", "Laundry Detergent", "Hand Sanitizer",
-                    "Fabric Softener", "Dryer Sheets"]
+            "items": ["Sponges", "Dish Soap", "Dish Towels", "Multi-Surface Cleaner","Garbage Bags", "Hand Soap", "Hand Towels", "Flushable Wipes","Toothbrushes", "Toothpaste", "Floss", "Shampoo", "Conditioner","Body Wash", "Lotion", "Razors", "Shaving Cream", "Face Wash","Baby Wipes", "Diapers", "Disinfecting Wipes", "Disinfecting Spray","Masks", "Small Trashbags", "Laundry Detergent", "Hand Sanitizer","Fabric Softener", "Dryer Sheets"]
         },
 
         {
@@ -21,8 +15,7 @@
             "address": "1557 Fourth Street, San Rafael, CA",
             "email": "info@bloommarin.org",
             "website": "https://bloommarin.org",
-            "items": ["Girl's Clothing (4-10)", "Boy's Clothing (4-10)",
-                    "Purses", "Jewlery"]
+            "items": ["Girl's Clothing (4-10)", "Boy's Clothing (4-10)","Purses", "Jewlery"]
         },
 
         {
@@ -40,15 +33,13 @@
             "address": "16 Ritter Street, San Rafael, CA",
             "email": "development@rittercenter.org",
             "website": "https://rittercenter.org",
-            "items": ["Soaps", "Shampoo", "Conditioner", "Shaving Cream",
-                    "Toothbrushes", "Toothpaste", "Sleeping Bags", 
-                    "Paper Shopping Bags", "Belts", "Shoes (New to Gently Used)"]
+            "items": ["Soaps", "Shampoo", "Conditioner", "Shaving Cream","Toothbrushes", "Toothpaste", "Sleeping Bags", "Paper Shopping Bags", "Belts", "Shoes (New to Gently Used)"]
         },
 
         {
             "name": "Global Book Exchange of Marin",
             "about": "The Global Book Exchange of Marin works with youth, educators and service clubs to deliver new homes for K-12 textbooks, library books, and educational meterials. They also offer books to families, teachers, schools, and non-profits to encourage literacy for everyone.",
-            "address": "852 Del Ganado Road, San Rafael, CA (NOT A POST OFFICE ADDRESS",
+            "address": "852 Del Ganado Road, San Rafael, CA",
             "email": "bookexchangemarin@gmail.com",
             "website": "https://www.bookexchangemarin.org/",
             "items": ["Books"]
@@ -77,13 +68,7 @@
             "address": "544 Capp Street, San Francisco, CA 94110",
             "email": "info@sfmc.org",
             "website": "https://sfcmc.org/",
-            "items": ["Alto Saxaphone", "Guitars (1/2, 3/4, Full Size)",
-                    "Violins (1/16, 1/10, 1/4, 1/2 Size)", "Viola (1/2, 3/4 Size)",
-                    "Cello (1/4, 1/2 Size)", "Bass Bows (1/2, 3/4 Size)",
-                    "Digital Keyboard", "Bongo Heads (Cajon, Standard Latin)",
-                    "Drum Pads", "Microphones (SM 57, SM 58)", "Small Bass Amp",
-                    "Boombox", "Guitar Cables", "Music Stands", "Video Tripods",
-                    "Cushioned Folding Chairs", "Gas Grill"]
+            "items": ["Alto Saxaphone", "Guitars (1/2, 3/4, Full Size)", "Violins (1/16, 1/10, 1/4, 1/2 Size)", "Viola (1/2, 3/4 Size)", "Cello (1/4, 1/2 Size)", "Bass Bows (1/2, 3/4 Size)", "Digital Keyboard", "Bongo Heads (Cajon, Standard Latin)", "Drum Pads", "Microphones (SM 57, SM 58)", "Small Bass Amp", "Boombox", "Guitar Cables", "Music Stands", "Video Tripods", "Cushioned Folding Chairs", "Gas Grill"]
         },
 
         {
@@ -92,9 +77,7 @@
             "address": "820 B Street San Rafael, CA", 
             "email": "vmasseria@vinnies.org",
             "website": "https://www.vinnies.org/",
-            "items": ["Sandwich Bags", "Paper Towels", "Brooms", "Mops",
-                    "Multi-Surface Cleaner", "Socks", "Soaps", "Sleeping Bags",
-                    "Deoderant"]
+            "items": ["Sandwich Bags", "Paper Towels", "Brooms", "Mops","Multi-Surface Cleaner", "Socks", "Soaps", "Sleeping Bags", "Deoderant"]
         },
 
         {
@@ -112,11 +95,7 @@
             "address": "1740 Old Rancheria Road, Nicasio, CA",
             "email": "bfalco@halleckcreekranch.org",
             "website": "https://halleckcreekranch.org",
-            "items": ["Paper Towels", "Toilet Paper", "Kleenex", "Ink Cartridges (Epson or HP Laserjet)", 
-                    "Helmets (Small and Medium, no more than 2 years old, Troxel or International)",
-                    "Small Manipulative Toys", "Balls (Different Weights and Textures)",
-                    "Rainbow Reins (Horse and Pony Length)", "Rope Halters with Rope Leads",
-                    "Manure Spreader", "Wheelbarrow (Large)", "Fly Spray", "Fly Masks"]
+            "items": ["Paper Towels", "Toilet Paper", "Kleenex", "Ink Cartridges (Epson or HP Laserjet)", "Horseback Riding Helmets (Small and Medium, no more than 2 years old, Troxel or International)", "Small Manipulative Toys", "Balls (Different Weights and Textures)", "Rainbow Reins (Horse and Pony Length)", "Rope Halters with Rope Leads", "Manure Spreader", "Wheelbarrow (Large)", "Fly Spray", "Fly Masks"]
         },
 
         {
@@ -125,9 +104,7 @@
             "address": "855 Sutro Avenue, Novato, CA",
             "email": "",
             "website": "https://www.hoovesforharmony.org/",
-            "items": ["Helmets (Small and Medium, New or Gently Used)", "Trail Boots (Easy Boots Size 5)",
-                    "Fly Masks", "Fly Spray", "Saddle Pads (Gently Used)", "Western Headstalls (snaffle bits only)",
-                    "Paper", "Ink Cartridges", "Forever Stamps"]
+            "items": ["Horseback Riding Helmets (Small and Medium, New or Gently Used)", "Trail Boots (Easy Boots Size 5)", "Fly Masks", "Fly Spray", "Saddle Pads (Gently Used)", "Western Headstalls (snaffle bits only)", "Paper", "Ink Cartridges", "Forever Stamps"]
         },
 
         {
@@ -136,21 +113,7 @@
             "address": "83 Hamilton Drive, Suite 200, Novato, CA",
             "email": "info@okizu.org",
             "website": "http://okizu.org",
-            "items": ["Binoculars", "Bug and Fish Nets", "Air Pump", "Fishing Poles",
-                    "Fishing Equipment", "Fish Hooks", "Ping Pong Balls", "Ping Pong Paddles",
-                    "Frisbees", "Disc Golf Discs", "Swim Goggles", "Swimsuits (Ages 6-17)",
-                    "Underwear (Ages 6-17)", "Socks (Ages 6-17)", "T-shirts (Ages 6-17)",
-                    "Shorts (Ages 6-17)", "Ziploc Bags", "Beads", "Dimensional Fabric Paint",
-                    "Poster Board", "Paint Pens", "Tacky Craft Glue", "Puff Paint", "Acrylic Paint",
-                    "Paint Brushes", "Bandanas (non-printed)", "T-Shirts (non-printed)",
-                    "White Board Markers", "Watercolor Markers", "Scisors (Kids)", "Button Maker",
-                    "Batteries (AA, AA, C, D)", "Masking Tape", "Duct Tape (Any Pattern)", "Blue Tape",
-                    "Small Alarm Clocks", "Digital Watches (Waterproof)", "Rechargable Lanterns",
-                    "Sharpies (Black Fine Point)", "Photo Paper (4x6)", "Tarps (10'x10' +)",
-                    "Brown Paper Lunch Bags", "Chapstick", "Kleenex", "Sunscreen (small)", 
-                    "Bug Spray (non-deet, small)", "Hand Sanitizer", "Notepads", "Post-It Notes", 
-                    "Copy Paper", "Folders", "Pens (Black or Blue)", "Pencils", "Staples", 
-                    "Staplers", "Tape Dispensers", "Tape"]
+            "items": ["Binoculars", "Bug and Fish Nets", "Bike Pumps", "Fishing Poles", "Fishing Equipment", "Fish Hooks", "Ping Pong Balls", "Ping Pong Paddles", "Frisbees", "Disc Golf Discs", "Swim Goggles", "Swimsuits (Ages 6-17)", "Underwear (Ages 6-17)", "Socks (Ages 6-17)", "T-shirts (Ages 6-17)", "Shorts (Ages 6-17)", "Ziploc Bags", "Beads", "Dimensional Fabric Paint", "Poster Board", "Paint Pens", "Tacky Craft Glue", "Puff Paint", "Acrylic Paint", "Paint Brushes", "Bandanas (non-printed)", "T-Shirts (non-printed)", "White Board Markers", "Watercolor Markers", "Scisors (Kids)", "Button Maker", "Batteries (AA, AA, C, D)", "Masking Tape", "Duct Tape (Any Pattern)", "Blue Tape", "Small Alarm Clocks", "Digital Watches (Waterproof)", "Rechargable Lanterns", "Sharpies (Black Fine Point)", "Photo Paper (4x6)", "Tarps (10'x10' +)", "Brown Paper Lunch Bags", "Chapstick", "Kleenex", "Sunscreen (small)",  "Bug Spray (non-deet, small)", "Hand Sanitizer", "Notepads", "Post-It Notes",  "Copy Paper", "Folders", "Pens (Black or Blue)", "Pencils", "Staples", "Staplers", "Tape Dispensers", "Tape"]
         },
         {
             "name": "Forwords Literacy Lab",
@@ -165,7 +128,7 @@
             "address": "532 4th St., San Rafael, CA 94901",
             "website": "https://www.streetsteam.org",
             "email": "development@streetsteam.org",
-            "items": ["Ziploc Bags (Gallon Size)", "Socks", "Hand Soap (Liquid)", "Masks", "Shampoo", "Conditioner", "Hand Sanitizer", "Toothbrushes", "Toothpaste", "Razors", "Shaving Cream", "Non-perishable food", "Female Hygiene Products", "Pumice Stone", "Moise Towelettes (Single Use)", "Gum", "Beanie", "Chapstick", "Gloves", "Poncho", "Sunscreen", "Aloe Vera"]
+            "items": ["Ziploc Bags (Gallon Size)", "Socks", "Hand Soap (Liquid)", "Masks", "Shampoo", "Conditioner", "Hand Sanitizer", "Toothbrushes", "Toothpaste", "Razors", "Shaving Cream", "Non-perishable food", "Female Hygiene Products", "Pumice Stone", "Moist Towelettes (Single Use)", "Gum", "Beanie", "Chapstick", "Gloves", "Poncho", "Sunscreen", "Aloe Vera"]
         },
         { 
             "name": "Side by Side",
@@ -173,7 +136,7 @@
             "address": "300 Sunny Hills Drive, Bldg. #5 San Anselmo, CA 94960",
             "website": "https://www.sidebysideyouth.org/",
             "email": "plufrano@sidebysideyouth.org",
-            "items": ["Sofas", "Tables", "Chairs", "Lamps", "Furiture"]
+            "items": ["Sofas", "Tables", "Chairs", "Lamps", "Furniture"]
         },
         { 
             "name": "Community Action Marin",
@@ -181,41 +144,65 @@
             "address": "555 Northgate Drive San Rafael, CA 94903",
             "website": "http://camarin.org",
             "email": "cam@camarin.org",
-            "items": ["Sleeping Bags (30 degrees fahrenheit or less)", "Towels", "Tents (1 or 2 person)", "Sheets (Twin or Queen)", "Conforter Set (Twin or Queen)", "Mice", "Chairs", "Standing Desks", "Keyboards", "Footrests", "Pressure Relief Cushions", "Anti-Fatigue Floor Mats", "Paper"]
+            "items": ["Sleeping Bags (30 degrees fahrenheit or less)", "Towels", "Tents (1 or 2 person)", "Sheets (Twin or Queen)", "Comforter Set (Twin or Queen)", "Mice", "Chairs", "Standing Desks", "Keyboards", "Footrests", "Pressure Relief Cushions", "Anti-Fatigue Floor Mats", "Paper"]
+        },
+        {
+            "name": "Trips for Kids Marin",
+            "about": "Trips for Kids Marin provides biking experiences for kids who are underprivilaged. They inspire a healthy lifestyle through teaching the kids biking. The kids are also helped to understand their positive value and the wonders of being outdoors in nature.",
+            "address": "610 4th Street, San Rafael",
+            "email": "jonathan@tripsforkidsmarin.org",
+            "website": "https://www.tripsforkidsmarin.org",
+            "items": ["Bicycles (Good Quality)", "Bike Frames (Good Quality)", "Bike Racks", "Bike Pumps", "Bike Bells", "Bike Lights", "Bike Helmets", "Bike Parts"]
+        },
+        {
+            "name": "Marin Foster Care Association",
+            "about": "The Marin Foster Care Association brings safe, quality care to all foster children in Marin County. They do so by providing support services and advocacy to all foster and adoptive families. The in-kind donations which they accept are mostly related to getting the kids something special for their accomplishments.",
+            "email": "donations@marinfostercare.org",
+            "website": "http://marinfostercare.org",
+            "address": "35 Mitchell Blvd #5b, San Rafael",
+            "items": ["Action Figures", "Disney-themed Toys", "Lego Sets", "Duplo Sets", "Hotwheels or Matchbox Cars", "Play-Doh", "Soccerballs", "Basketballs", "Footballs", "Tonka Trucks", "Baby Dolls", "Baby Doll Accessories", "Board Games", "Earbuds", "Jewlery", "Makeup Kits", "Scented Candles", "Lotion", "Hairbrushes", "Combs", "Hair Product", "Shampoo", "Conditioner", "Shaving Cream", "Razors", "Body Wash"]
+        },
+        {
+            "name": "SCRAP SF",
+            "about": "SCRAP is a creative resue center in San Francisco. They put new life into craft supplies, and they annually divert 200 tons pf materials from the landfill. SCRAP is a place for the community to find materials for educational programs, createive projects, and their classrooms. They deliver underprivilaged students art kits and instruction, and so much more.",
+            "address": "2150 Newcomb Avenue San Francisco, CA 94124",
+            "email": "donate@scrap-sf.org",
+            "website": "https://www.scrap-sf.org",
+            "items": ["Craft Supplies [Category]", "Paper", "Fabric (Larger than 12 in x 12 in)", "Buttons", "Thread", "Yarn", "Knitting and Crochet accessories","Leather", "Beads", "Wire", "Used Signage or Promtional Items", "Acrylic Sheets", "Frames", "Architectural &amp; Interior Samples [Skip]", "Art Books", "National Geographic Magazines (Must be National Geographic)", "Glass Jars (Lids, No Labels)", "Paint (Must have manufacturing labels)"]
         }
     ],
     "items": [
         {
             "category": "Music",
-            "items": ["Small Bass Amp", "Boombox", "Microphones", "Guitars", "Viola", "Violins", "Digital Keyboard", "Cello", "Bass Bows", "Guitar Cables", "Bongo Heads", "Oboes", "Flutes", "Music Stands", "Trumpets", "Trombones", "Drum Pads", "Alto Saxaphone", "Clarinets"]
+            "items": ["Small Bass Amp", "Boombox", "Microphones", "Guitars", "Viola", "Violins", "Digital Keyboard", "Cello", "Bass Bows", "Guitar Cables", "Bongo Heads", "Oboes", "Flutes", "Music Stands", "Trumpets", "Trombones", "Drum Pads", "Alto Saxaphone", "Clarinets", "Earbuds"]
         },
         {
             "category": "Clothing",
-            "items": ["T-Shirts", "Underwear", "Socks", "Shorts", "Swimsuits", "T-shirts", "Bandanas", "Swim Goggles", "Boy's Clothing", "Shoes", "Belts", "Girl's Clothing"]
+            "items": ["T-Shirts", "Underwear", "Socks", "Shorts", "Swimsuits", "T-shirts", "Bandanas", "Swim Goggles", "Boy's Clothing", "Shoes", "Belts", "Girl's Clothing", "Beanie", "Gloves", "Poncho"]
         },
         {
             "category": "Office Supplies",
-            "items": ["Forever Stamps", "Photo Paper", "Masking Tape", "Tape", "Paper", "Sharpies", "Post-It Notes", "Poster Board", "Batteries", "Paper Towels", "Staples", "Staplers", "Pens", "Pencils", "Blue Tape", "Tape Dispensers", "Folders", "Copy Paper", "Notepads", "Cushioned Folding Chairs", "Ink Cartridges"]
+            "items": ["Forever Stamps", "Photo Paper", "Masking Tape", "Tape", "Paper", "Sharpies", "Post-It Notes", "Poster Board", "Batteries", "Paper Towels", "Staples", "Staplers", "Pens", "Pencils", "Blue Tape", "Tape Dispensers", "Folders", "Copy Paper", "Notepads", "Cushioned Folding Chairs", "Ink Cartridges", "Pencil Sharpeners", "Laptops", "Notebooks", "Keyboards", "Mice", "Standing Desks", "Anti-Fatigue Floor Mats", "Pressure Relief Cushions"]
         },
         {
             "category": "Craft Supplies",
-            "items": ["Dimensional Fabric Paint", "Paint Pens", "Scisors", "Button Maker", "Duct Tape", "Beads", "Puff Paint", "Tacky Craft Glue", "White Board Markers", "Paint Brushes", "Acrylic Paint", "Watercolor Markers"]
+            "items": ["Dimensional Fabric Paint", "Paint Pens", "Scisors", "Button Maker", "Duct Tape", "Beads", "Puff Paint", "Tacky Craft Glue", "White Board Markers", "Paint Brushes", "Acrylic Paint", "Watercolor Markers", "Frames", "Buttons", "Paint", "Thread", "Fabric", "Wire", "Art Books", "Yarn", "Leather", "Knitting and Crochet accessories", "Acrylic Sheets"]
         },
         {
             "category": "Sports Equipment",
-            "items": ["Trail Boots", "Rope Halters with Rope Leads", "Disc Golf Discs", "Fishing Equipment", "Ping Pong Balls", "Ping Pong Paddles", "Fishing Poles", "Helmets", "Rainbow Reins", "Saddle Pads", "Western Headstalls", "Frisbees", "Yoga Mats", "Fish Hooks"]
+            "items": ["Trail Boots", "Rope Halters with Rope Leads", "Disc Golf Discs", "Fishing Equipment", "Ping Pong Balls", "Ping Pong Paddles", "Fishing Poles", "Horseback Riding Helmets", "Rainbow Reins", "Saddle Pads", "Western Headstalls", "Frisbees", "Yoga Mats", "Fish Hooks", "Basketballs", "Footballs", "Soccerballs", "Bike Helmets", "Bicycles", "Bike Bells", "Bike Lights", "Bike Frames", "Bike Parts"]
         },
         {
-            "category": "Hygene Items",
-            "items": ["Flushable Wipes", "Toothpaste", "Deoderant", "Toothbrushes", "Lotion", "Body Wash", "Chapstick", "Diapers", "Shampoo", "Kleenex", "Hand Soap", "Hand Sanitizer", "Baby Wipes", "Shaving Cream", "Floss", "Toilet Paper", "Masks", "Soaps", "Face Wash", "Conditioner", "Razors"]
+            "category": "Hygiene Items",
+            "items": ["Flushable Wipes", "Toothpaste", "Deoderant", "Toothbrushes", "Lotion", "Body Wash", "Chapstick", "Diapers", "Shampoo", "Kleenex", "Hand Soap", "Hand Sanitizer", "Baby Wipes", "Shaving Cream", "Floss", "Toilet Paper", "Masks", "Soaps", "Face Wash", "Conditioner", "Razors", "Combs", "Hairbrushes", "Female Hygiene Products", "Aloe Vera", "Pumice Stone", "Moist Towelettes", "Hair Product"]
         },
         {
             "category": "Outdoors Items",
-            "items": ["Air Pump", "Gas Grill", "Bug and Fish Nets", "Sleeping Bags", "Binoculars", "Tarps", "Bug Spray", "Sunscreen", "Fly Spray", "Rechargable Lanterns"]
+            "items": ["Bike Pumps", "Gas Grill", "Bug and Fish Nets", "Sleeping Bags", "Binoculars", "Tarps", "Bug Spray", "Sunscreen", "Fly Spray", "Rechargable Lanterns", "Tents", "Bike Racks"]
         },
         {
             "category": "Household Items",
-            "items": ["Towels", "Laundry Detergent", "Multi-Surface Cleaner", "Small Trashbags", "Garbage Bags", "Dryer Sheets", "Fabric Softener", "Disinfecting Spray", "Disinfecting Wipes", "Dish Soap", "Dish Towels", "Mops", "Brooms", "Ziploc Bags", "Sandwich Bags", "Paper Shopping Bags", "Brown Paper Lunch Bags", "Sponges", "Hand Towels"]
+            "items": ["Towels", "Laundry Detergent", "Multi-Surface Cleaner", "Small Trashbags", "Garbage Bags", "Dryer Sheets", "Fabric Softener", "Disinfecting Spray", "Disinfecting Wipes", "Dish Soap", "Dish Towels", "Mops", "Brooms", "Ziploc Bags", "Sandwich Bags", "Paper Shopping Bags", "Brown Paper Lunch Bags", "Sponges", "Hand Towels", "Furniture", "Comforter Set", "Sheets", "Chairs", "Sofas", "Tables", "Footrests", "Lamps"]
         },
         {
             "category": "Animal Care",
@@ -223,7 +210,11 @@
         },
         {
             "category": "Miscellaneous",
-            "items": ["Purses", "Jewlery", "Books", "Small Alarm Clocks", "Wheelbarrow", "Video Tripods", "Digital Watches", "Balls", "Small Manipulative Toys", "Manure Spreader"]
+            "items": ["Purses", "Jewlery", "Books", "Small Alarm Clocks", "Wheelbarrow", "Video Tripods", "Digital Watches", "Balls", "Small Manipulative Toys", "Manure Spreader", "Non-perishable food", "Gum", "National Geographic Magazines", "Makeup Kits", "Used Signage or Promtional Items", "Scented Candles", "Glass Jars", "Photography Equipment"]
+        },
+        {
+            "category": "Toys and Games",
+            "items": ["Lego Sets", "Duplo Sets", "Action Figures", "Hotwheels or Matchbox Cars", "Disney-themed Toys", "Board Games", "Tonka Trucks", "Play-Doh", "Baby Dolls", "Baby Doll Accessories"]
         }
     ]
 }
