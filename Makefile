@@ -2,9 +2,9 @@ CSS_DIR = ./css
 CHARITIES_DIR = ./charities
 ITEMS_DIR = ./items
 
-.PHONY: css html dependencies
+.PHONY: css html dependencies clean
 
-all: css html
+install: css html
 
 dependencies:
 	@echo "Checking Dependencies"
@@ -23,3 +23,8 @@ html: dependencies
 	python python/list_view.py charities.html $(CHARITIES_DIR)/index.html
 	python python/detail_view.py $(CHARITIES_DIR)
 	python python/items.py items.html $(ITEMS_DIR)
+
+clean:
+	rm -r $(CHARITIES_DIR)
+	rm -r $(ITEMS_DIR)
+	rm -r $(CSS_DIR)
