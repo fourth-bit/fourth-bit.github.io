@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Marin Donates</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/bootstrap-4.6.0/dist/js/bootstrap.min.js"></script>
+  <script src="/js/lunr.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top shadow-sm">
+    <a class="navbar-brand" href="/">Marin Donates</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/charities.html">By Charities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/items.html">By Item</a>
+        </li>
+      </ul>
+      <form class="navbar-form ml-auto justify-content-end" action="/search.html">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <button class="btn fa bg-primary" type="submit"></button>
+          </div>
+          <input class="form-control" type="search" placeholder="Search" name="q">
+        </div>
+      </form>
+    </div>
+  </nav>
+  <div class="container pt-3" id="content">
+    <h1 class="text-center">About Marin Donates</h1>
+    <p>
+      Throughout COVID-19, we have been going through our belongings at a rate unseen before and discovering items we have no need for anymore. In Marin, the simple solution is to either discard it, or sell it on NextDoor. Here, the socioeconomic divide is large, and donating these items to a non-profit that benefits those in need would be a great change which the area could definitely use. This website is my solution to this issue. I hope that this can be used as a resource to find where you can donate your used items.
+    </p>
+    <p>
+      If you have any feedback or you find an issue with this website, please open an issue on <a class="text-info" href="https://github.com/fourth-bit/marin-donates/issues/new">the github repository</a>.
+    </p>
+  </div>
+  <script src="/js/index.js"></script>
+</body>
+</html>
