@@ -70,7 +70,7 @@ def gen_list_view() -> str:
         index = template.find('{INSERT LIST}')
         template = template[:index] + temp + template[index:]
 
-        if count == 4:
+        if count == round(len(objs) / 2) - 1:
             index = template.find('{INSERT LIST}')
             template = template[:index] + """</div>\n\t<div class="col-md-6">""" + template[index:]
     
