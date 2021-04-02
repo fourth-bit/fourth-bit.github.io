@@ -75,6 +75,10 @@ def gen_list_view() -> str:
             template = template[:index] + """</div>\n\t<div class="col-md-6">""" + template[index:]
     
     template = template.replace('{INSERT LIST}', '')
+
+    script_insert_index = template.find('</body>')
+    template = template[:script_insert_index] + '<script src="js/dropdown.js"></script>' + template[script_insert_index:]
+
     return template
 
 def gen_detail_views() -> dict:
