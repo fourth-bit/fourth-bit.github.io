@@ -272,3 +272,18 @@ $fa-font-display: block;
         }
     }
 }
+
+.result-link {
+    color: $nord0 !important;
+
+    .card {
+        background-color: $secondary;
+    }
+
+    &:hover {
+        text-decoration: none !important;
+        .card {
+            background-color: lighten($secondary, 10%);
+        }
+    }
+}
