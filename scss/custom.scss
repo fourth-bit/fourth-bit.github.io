@@ -27,11 +27,13 @@ $dark: $nord0;
 @font-face {
     font-family: "Lato";
     src: url(../fonts/Lato/Lato-Regular.ttf);
+    unicode-range: U+000-5FF;
 }
 
 @font-face {
     font-family: "Merriweather";
     src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+    unicode-range: U+000-5FF;
 }
 
 body {
