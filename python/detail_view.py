@@ -32,7 +32,9 @@ def get_charity_items(charity: dict) -> list:
             continue
         else:
             items.append(item)
-    return items
+
+    items = list(set(items)) # Weed out duplicates
+    return sorted(items)
 
 def gen_detail_view(obj):
     fp = open(ROOT_TEMPLATE)
@@ -52,7 +54,7 @@ def gen_detail_view(obj):
 
     for item in get_charity_items(obj):
         temp = \
-f"""<div class="col-6 col-sm-4 col-lg-3 p-0">
+f"""<div class="col-sm-6 col-md-4 col-lg-3 p-0">
     <a class="text-dark" href="/items/{item.lower().replace(' ', '-')}.html">
         <p class="text-center m-1 border-dark border rounded bg-success">{item}</p>
     </a>

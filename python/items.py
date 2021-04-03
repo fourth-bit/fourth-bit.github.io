@@ -29,11 +29,13 @@ def get_charities_with_item(charities: list, name: str) -> list:
         for item in charity['items']:
             if name in item:
                 answer.append(charity)
+                break
             elif '[Category]' in item:
                 category = item[:item.find('[')].strip().lower()
                 items_in_category = items[categories.index(category)]['items']
                 if name in items_in_category:
                     answer.append(charity)
+                    break
     return answer
 
 def gen_list_view() -> str:
