@@ -12,7 +12,8 @@ def gen_list_view() -> str:
     """
 
     fp = open(CHARITIES_JSON)
-    charities: list = json.load(fp)['charities']
+    charities: list = sorted(json.load(fp)['charities'],
+        key=lambda x: x['name'])
     fp.close()
     
     fp = open(ROOT_TEMPLATE)
@@ -26,8 +27,22 @@ def gen_list_view() -> str:
     </div>""")
 
     for obj in charities:
+        alternates = {}
+        for x in obj:
+            if '[Alternate]' in obj[x]:
+                alternates[x] = str(obj[x])
+                obj[x] = f'{{Exclude+{x}}}'
         temp = util.subsitute_object(LIST_TEMPLATE, obj)
         temp = temp.replace('{NAME LINK}', obj['name'].lower().replace(' ', '-'))
+
+        newlines = [y for y in range(len(temp)) if temp.startswith('\n', y)] # The line ending is Unix, not \r\n
+        for x in alternates:
+            index = temp.find(f'{{Exclude+{x}}}')
+            # Slice is upper bound exclusive
+            before = max([line for line in newlines if line < index]) + 1
+            after = min([line for line in newlines if line > index])
+            temp = temp[:before] + temp[after:]
+
         insert_index = template.find('{INSERT CHARITIES}')
         template = template[:insert_index] + temp + '\n' + template[insert_index:]
     template = template.replace('{INSERT CHARITIES}', '')

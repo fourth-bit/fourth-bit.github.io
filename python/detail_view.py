@@ -41,9 +41,27 @@ def gen_detail_view(obj):
     template: str = fp.read()
     fp.close()
 
+    alternates = {}
+
+    for x in obj:
+        if '[Alternate]' in obj[x]:
+            alternates[x] = str(obj[x])
+            obj[x] = f'{{Insert+{x}+alternate}}'
+
     temp = util.subsitute_object(DETAIL_TEMPLATE_LOCATION, obj)
     temp = temp.replace('{INSERT FORMATTED ADDRESS}', obj['address'].replace(' ', '+'))
     template = template.replace('{INSERT}', temp) # Strings are immutable
+
+    newlines = [y for y in range(len(template)) if template.startswith('\n', y)] # The line ending is Unix, not \r\n
+
+    for x in alternates:
+        index = template.find(f'{{Insert+{x}+alternate}}')
+        # Slice is upper bound exclusive
+        before = max([line for line in newlines if line < index]) + 1
+        after = min([line for line in newlines if line > index])
+        template = template[:before] + \
+            alternates[x].rstrip('[Alternate]').rstrip() + \
+            template[after:]
 
     if obj['email'] == '':
         template = template.replace("Through email here:", '')
