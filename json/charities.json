@@ -151,6 +151,22 @@
             "email": "donate@scrap-sf.org",
             "website": "https://www.scrap-sf.org",
             "items": ["Craft Supplies [Category]", "Paper", "Fabric (Larger than 12 in x 12 in)", "Buttons", "Thread", "Yarn", "Knitting and Crochet accessories","Leather", "Beads", "Wire", "Used Signage or Promtional Items", "Acrylic Sheets", "Frames", "Architectural &amp; Interior Samples [Skip]", "Art Books", "National Geographic Magazines (Must be National Geographic)", "Glass Jars (Lids, No Labels)", "Paint (Must have manufacturing labels)"]
+        },
+        {
+            "name": "Marin Maker Space",
+            "address": "931 C St, Novato, CA 94949",
+            "email": "sara@marinmakerspace.com",
+            "website": "https://www.marinmakerspace.com",
+            "about": "The Marin Maker Space is a part of the Marinovation Learning Center. They are an enviornment for youth to create and play collaboratively. They help youth find and create solutions which enable thier future.",
+            "items": ["Craft Supplies [Category]"]
+        },
+        {
+            "name": "Make It Home Bay Area",
+            "about": "Moke It Home helps people transitioning out of homelessness find essential household items. They bring in gently used items to help make their transition as smooth as possible. All of their work goes into their goal of ending furniture poverty in the Bay Area.",
+            "website": "https://makeithomebayarea.org",
+            "email": "info@makeithomebayarea.org",
+            "address": "<p>In order to donate, please use this form <a class='text-info' href='https://www.makeithomebayarea.org/donate-stuff'>here<a> to arrange a pickup. [Alternate]</p>",
+            "items": ["Desks", "Tables", "Sofas", "Chairs", "Lamps", "Dressers", "Nightstands", "Plates", "Kitchen Utensils", "Pots and Pans", "Kitchen Appliances (Small)", "Silverware", "Board Games", "Books (Children's)", "Outdoor Furniture"]
         }
     ],
     "items": [
@@ -184,7 +200,7 @@
         },
         {
             "category": "Household Items",
-            "items": ["Towels", "Laundry Detergent", "Multi-Surface Cleaner", "Small Trashbags", "Garbage Bags", "Dryer Sheets", "Fabric Softener", "Disinfecting Spray", "Disinfecting Wipes", "Dish Soap", "Dish Towels", "Mops", "Brooms", "Ziploc Bags", "Sandwich Bags", "Paper Shopping Bags", "Brown Paper Lunch Bags", "Sponges", "Hand Towels", "Furniture", "Comforter Set", "Sheets", "Chairs", "Sofas", "Tables", "Footrests", "Lamps"]
+            "items": ["Towels", "Laundry Detergent", "Multi-Surface Cleaner", "Small Trashbags", "Garbage Bags", "Dryer Sheets", "Fabric Softener", "Disinfecting Spray", "Disinfecting Wipes", "Dish Soap", "Dish Towels", "Mops", "Brooms", "Ziploc Bags", "Sandwich Bags", "Paper Shopping Bags", "Brown Paper Lunch Bags", "Sponges", "Hand Towels", "Furniture", "Comforter Set", "Sheets", "Chairs", "Sofas", "Tables", "Footrests", "Lamps", "Kitchen Utensils", "Dressers", "Kitchen Appliances", "Nightstands", "Outdoor Furniture", "Plates", "Silverware", "Desks", "Pots and Pans"]
         },
         {
             "category": "Animal Care",
