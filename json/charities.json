@@ -3,7 +3,7 @@
         {
             "name": "Adopt A Family Marin",
             "about": "Over the last 30 years, Adopt A Family has helped to prevent the road to homelessness which families face. Their goal is no homeless children living in Marin. They help families stay stable in their fight against poverty.",
-            "address": "35 Mitchell Bvld. Suite 16, San Rafael, CA",
+            "address": "35 Mitchell Blvd Suite 16, San Rafael, CA",
             "email": "jaqueline@adoptafamily.org",
             "website": "https://adoptafamily.org",
             "items": ["Sponges", "Dish Soap", "Dish Towels", "Multi-Surface Cleaner","Garbage Bags", "Hand Soap", "Hand Towels", "Flushable Wipes","Toothbrushes", "Toothpaste", "Floss", "Shampoo", "Conditioner","Body Wash", "Lotion", "Razors", "Shaving Cream", "Face Wash","Baby Wipes", "Diapers", "Disinfecting Wipes", "Disinfecting Spray","Masks", "Small Trashbags", "Laundry Detergent", "Hand Sanitizer","Fabric Softener", "Dryer Sheets"]
@@ -43,7 +43,7 @@
         {
             "name": "Marin Humane Society",
             "about": "The Marin Humane Society transforms lives through exceptional care, humane education, and advocacy. Every day, they inspre compassion and positive relationships between animals and people. They wish to see a world where every animal is treated in a humane fashion. ",
-            "address": "171 Bel Marin Keys Bvld, Novato, CA",
+            "address": "171 Bel Marin Keys Blvd, Novato, CA",
             "email": "",
             "website": "https://www.marinhumane.org",
             "items": ["Towels", "Cat Food", "Dog Food", "Cat Litter", "Pet Carriers", "Yoga Mats"]
@@ -59,7 +59,7 @@
         {
             "name": "St. Vincent de Paul Society",
             "about": "The St. Vincent de Paul Society strives to give care and important services to people who are struggling in Marin County. Their main programs include, the free dining room, the homeless outreach team, and the jobs stipend and employment training program. They believe that everyone deserves food, housing, and a chance for a better life.",
-            "address": "820 B Street San Rafael, CA", 
+            "address": "820 B Street, San Rafael, CA", 
             "email": "vmasseria@vinnies.org",
             "website": "https://www.vinnies.org/",
             "items": ["Sandwich Bags", "Paper Towels", "Brooms", "Mops","Multi-Surface Cleaner", "Socks", "Soaps", "Sleeping Bags", "Deoderant"]
@@ -99,7 +99,7 @@
         {
             "name": "Forwords Literacy Lab",
             "about": "Forwards is an educational organization which seeks to bring literacy to everyone. They help students overcome language, cultural, and economic barriers. Their work focuses on making sure that all of their student will become confident and productive members of society.",
-            "address": "361 Third St., Suite I, San Rafael, CA. 94901",
+            "address": "361 Third St, Suite I, San Rafael, CA. 94901",
             "website": "https://www.forwords.org",
             "email": "gail@forwords.org",
             "items": ["Laptops (Newer and in good condition)", "Photography Equipment", "Pens", "Pencils", "Pencil Sharpeners", "Office Supplies [Category]", "Notebooks", "Craft Supplies [Category]", "Non-perishable food"]
@@ -107,7 +107,7 @@
         {
             "name": "Downtown Streets Team",
             "about": "The Downtown Streets Team help homeless people in Marin and other areas. They treat the people who they help with dignity and they make them feel empowered. Those who they help work on projects with them. The Downtown Streets Team's ultimate goal is to transition the people who the help into empoyment and having a job. They believe that having a job restores hope and creates opportunity, so the Downtown Streets Team helps homeless people do this.",
-            "address": "532 4th St., San Rafael, CA 94901",
+            "address": "532 4th St, San Rafael, CA 94901",
             "website": "https://www.streetsteam.org",
             "email": "development@streetsteam.org",
             "items": ["Ziploc Bags (Gallon Size)", "Socks", "Hand Soap (Liquid)", "Masks", "Shampoo", "Conditioner", "Hand Sanitizer", "Toothbrushes", "Toothpaste", "Razors", "Shaving Cream", "Non-perishable food", "Female Hygiene Products", "Pumice Stone", "Moist Towelettes (Single Use)", "Gum", "Beanie", "Chapstick", "Gloves", "Poncho", "Sunscreen", "Aloe Vera"]
@@ -115,7 +115,7 @@
         { 
             "name": "Side by Side",
             "about": "At Side by Side they walk with young people impacted by adversity on their unique journeys to heal from trauma, restore resilience, and embrace their own potential.They provide critical services to satisfy the young people's needs, and set them on a positive path away from dangerous conditions and behaviors.",
-            "address": "300 Sunny Hills Drive, Bldg. #5 San Anselmo, CA 94960",
+            "address": "300 Sunny Hills Dr, San Anselmo, CA 94960",
             "website": "https://www.sidebysideyouth.org/",
             "email": "plufrano@sidebysideyouth.org",
             "items": ["Sofas", "Tables", "Chairs", "Lamps", "Furniture"]
@@ -123,7 +123,7 @@
         { 
             "name": "Community Action Marin",
             "about": "Community Action Marin strives for everyone in Marin to achieve well being by getting educational, health, and other essential servies. They cover financial emergencies, they provide child care and early childhood education, they help people manage their mental health, and so much more. They are willing to help anyone along their road to properity.",
-            "address": "555 Northgate Drive San Rafael, CA 94903",
+            "address": "555 Northgate Drive, San Rafael, CA 94903",
             "website": "http://camarin.org",
             "email": "cam@camarin.org",
             "items": ["Sleeping Bags (30 degrees fahrenheit or less)", "Towels", "Tents (1 or 2 person)", "Sheets (Twin or Queen)", "Comforter Set (Twin or Queen)", "Mice", "Chairs", "Standing Desks", "Keyboards", "Footrests", "Pressure Relief Cushions", "Anti-Fatigue Floor Mats", "Paper"]
@@ -141,7 +141,7 @@
             "about": "The Marin Foster Care Association brings safe, quality care to all foster children in Marin County. They do so by providing support services and advocacy to all foster and adoptive families. The in-kind donations which they accept are mostly related to getting the kids something special for their accomplishments.",
             "email": "donations@marinfostercare.org",
             "website": "http://marinfostercare.org",
-            "address": "35 Mitchell Blvd #5b, San Rafael",
+            "address": "35 Mitchell Blvd 5b, San Rafael",
             "items": ["Action Figures", "Disney-themed Toys", "Lego Sets", "Duplo Sets", "Hotwheels or Matchbox Cars", "Play-Doh", "Soccerballs", "Basketballs", "Footballs", "Tonka Trucks", "Baby Dolls", "Baby Doll Accessories", "Board Games", "Earbuds", "Jewlery", "Makeup Kits", "Scented Candles", "Lotion", "Hairbrushes", "Combs", "Hair Product", "Shampoo", "Conditioner", "Shaving Cream", "Razors", "Body Wash"]
         },
         {
