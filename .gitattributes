@@ -2,3 +2,6 @@ js/jquery.min.js linguist-vendored
 js/lunr.js linguist-vendored
 js/lunr.min.js linguist-vendored
 js/popper.min.js linguist-vendored
+fonts/* linguist-vendored
+font-awesome/* linguist-vendored
+bootstrap-4.6.0/* linguist-vendored
