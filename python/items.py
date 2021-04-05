@@ -27,7 +27,11 @@ def get_charities_with_item(charities: list, name: str) -> list:
     answer = []
     for charity in charities:
         for item in charity['items']:
-            if name in item:
+            p_index = item.find('(') if item.find('(') != -1 else len(item)
+            b_index = item.find('[') if item.find('[') != -1 else len(item)
+            index = min(p_index, b_index)
+            stripped_item = item[:index].strip()
+            if name == stripped_item:
                 answer.append(charity)
                 break
             elif '[Category]' in item:
