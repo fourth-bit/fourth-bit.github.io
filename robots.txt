@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /search.html
+
+User-agent: *
+Allow: /
+
+Sitemap: http://fourth-bit.github.io/sitemap.xml
