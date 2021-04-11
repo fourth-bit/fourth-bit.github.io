@@ -27,7 +27,7 @@ def get_charity_items(charity: dict) -> list:
             continue"""
         if '[Skip]' in item:
             continue
-        elif '[Category]':
+        elif '[Category]' in item:
             items.append(item.rstrip('[Category]').strip())
         else:
             items.append(item)
