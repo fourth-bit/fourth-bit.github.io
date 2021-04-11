@@ -25,6 +25,7 @@ html: dependencies
 	python python/list_view.py charities.html $(CHARITIES_DIR)/index.html
 	python python/detail_view.py $(CHARITIES_DIR)
 	python python/items.py items.html $(ITEMS_DIR)
+	python python/gen_sitemap.py sitemap.xml
 
 clean:
 	rm -r $(CHARITIES_DIR)

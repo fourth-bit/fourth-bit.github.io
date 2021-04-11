@@ -7,6 +7,7 @@ DETAIL_TEMPLATE_LOCATION = "templates/detail-template.html"
 ROOT_TEMPLATE = "templates/default.html"
 CHARITIES_JSON = 'json/charities.json'
 
+
 def get_charity_items(charity: dict) -> list:
     """Gets all the items the charity accepts.
     Parameters:
@@ -15,26 +16,25 @@ def get_charity_items(charity: dict) -> list:
         List of all items the charity accepts
     """
 
-    fp = open(CHARITIES_JSON)
-    items_json = json.load(fp)['items']
-    fp.close()
-
-    categories = [x['category'].lower() for x in items_json]
-
     items = []
 
     for item in charity['items']:
-        if '[Category]' in item:
+        """if '[Category]' in item:
             category = item[:item.find("[Category]")].strip().lower()
             items_in_category = items_json[categories.index(category)]['items']
             items.extend(items_in_category)
         elif '[Skip]' in item:
+            continue"""
+        if '[Skip]' in item:
             continue
+        elif '[Category]':
+            items.append(item.rstrip('[Category]').strip())
         else:
             items.append(item)
 
-    items = list(set(items)) # Weed out duplicates
+    items = list(set(items))  # Weed out duplicates
     return sorted(items)
+
 
 def gen_detail_view(obj):
     fp = open(ROOT_TEMPLATE)
@@ -50,9 +50,9 @@ def gen_detail_view(obj):
 
     temp = util.subsitute_object(DETAIL_TEMPLATE_LOCATION, obj)
     temp = temp.replace('{INSERT FORMATTED ADDRESS}', obj['address'].replace(' ', '+'))
-    template = template.replace('{INSERT}', temp) # Strings are immutable
+    template = template.replace('{INSERT}', temp)  # Strings are immutable
 
-    newlines = [y for y in range(len(template)) if template.startswith('\n', y)] # The line ending is Unix, not \r\n
+    newlines = [y for y in range(len(template)) if template.startswith('\n', y)]  # The line ending is Unix, not \r\n
 
     for x in alternates:
         index = template.find(f'{{Insert+{x}+alternate}}')
@@ -79,7 +79,7 @@ f"""<div class="col-sm-6 col-md-4 col-lg-3 p-0">
 </div>"""
         index = template.find("{INSERT ITEMS}")
         template = template[:index] + temp + template[index:]
-    
+
     template = template.replace('{INSERT ITEMS}', '')
 
     return template
@@ -94,6 +94,7 @@ def main():
         detail_view = gen_detail_view(obj)
         fp = open(f"{sys.argv[1]}/{obj['name'].lower().replace(' ', '-')}.html", 'w')
         fp.write(detail_view)
+
 
 if __name__ == "__main__":
     main()

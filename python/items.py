@@ -4,10 +4,28 @@ import sys
 import util
 
 DETAIL_TEMPLATE = "templates/items-detail-template.html"
+CATEGORY_DETAIL_VIEW = "templates/categories-detail-view.html"
 LIST_TEMPLATE = "templates/items-template.html"
 ROOT_TEMPLATE = "templates/default.html"
 CHARITY_LIST_VIEW = "templates/list-template.html"
 ITEMS_JSON = "json/charities.json"
+
+def get_charities_with_category(charities: list, category: str) -> list:
+    """Get all the charities from the specified list which use the specific
+    category using the [Category] directive.
+    Parameters:
+        1: List of Dictionaries (The charities)
+        2: String (Name of the category, DO NOT put the [Category] on it
+    Return Value:
+        List of all  of the charities with the category
+    """
+    
+    return_list = []
+
+    for charity in charities:
+        if category + ' [Category]' in charity['items']:
+            return_list.append(charity)
+    return return_list
 
 def get_charities_with_item(charities: list, name: str) -> list:
     """Gets a charities with a certain item.
@@ -62,8 +80,7 @@ def gen_list_view() -> str:
         </div>
     </div>
 </div>
-"""
-    )
+""")
 
     for count, obj in enumerate(objs):
         temp = util.subsitute_object(LIST_TEMPLATE, obj)
@@ -79,13 +96,13 @@ def gen_list_view() -> str:
         if count == round(len(objs) / 2) - 1:
             index = template.find('{INSERT LIST}')
             template = template[:index] + """</div>\n\t<div class="col-md-6">""" + template[index:]
-    
+
     template = template.replace('{INSERT LIST}', '')
 
     script_insert_index = template.find('</body>')
     template = template[:script_insert_index] + '<script src="js/dropdown.js"></script>' + template[script_insert_index:]
-
     return template
+
 
 def gen_detail_views() -> dict:
     fp = open(ITEMS_JSON)
@@ -98,11 +115,10 @@ def gen_detail_views() -> dict:
     template = fp.read()
     fp.close()
 
-    template = template.replace('{INSERT}', 
+    template = template.replace('{INSERT}',
 """
 {INSERT DETAIL VIEW}
-"""
-    )
+""")
 
     return_dict = {}
 
@@ -124,7 +140,40 @@ def gen_detail_views() -> dict:
                 + temp[index:]
         temp = temp.replace('{INSERT CHARITIES}', '')
         return_dict[name] = template.replace('{INSERT DETAIL VIEW}', temp)
+
+    for obj in objs:
+        temp = util.subsitute_object(CATEGORY_DETAIL_VIEW, obj)
+
+        if get_charities_with_item(charities, obj['category']) == []:
+            continue
+        for charity in get_charities_with_category(charities, obj['category']):
+            index = temp.find('{INSERT CHARITIES}')
+
+            if len(charity['about']) > 150:
+                charity['about'] = charity['about'][:147] + ' ...'
+
+            temp = temp[:index]\
+                + util.subsitute_object(CHARITY_LIST_VIEW, charity)\
+                        .replace('{NAME LINK}',
+                        charity['name'].replace(' ', '-').lower())\
+                + temp[index:]
+        temp = temp.replace('{INSERT CHARITIES}', '')
+
+        for item in obj['items']:
+            index = temp.find('{INSERT ITEMS}')
+            formtatted_item = \
+f"""<div class="col-sm-6 col-md-4 col-lg-3 p-0">
+    <a class="text-dark" href="/items/{item.lower().replace(' ', '-')}.html">
+        <p class="text-center m-1 border-dark border rounded bg-success">{item}</p>
+    </a>
+</div>"""
+            temp = temp[:index] + formtatted_item + temp[index:]
+        temp = temp.replace('{INSERT ITEMS}', '')
+
+        return_dict[obj['category']] = template.replace('{INSERT DETAIL VIEW}', temp)
+
     return return_dict
+
 
 def main():
     list_view = gen_list_view()
@@ -144,3 +193,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

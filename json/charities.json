@@ -167,12 +167,20 @@
             "email": "info@makeithomebayarea.org",
             "address": "<p>In order to donate, please use this form <a class='text-info' href='https://www.makeithomebayarea.org/donate-stuff'>here<a> to arrange a pickup. [Alternate]</p>",
             "items": ["Desks", "Tables", "Sofas", "Chairs", "Lamps", "Dressers", "Nightstands", "Plates", "Kitchen Utensils", "Pots and Pans", "Kitchen Appliances (Small)", "Silverware", "Board Games", "Books (Children's)", "Outdoor Furniture"]
-        }
+        },
+	{
+		"name": "LITA Marin",
+		"about": "LITA Marin, or Love is the Answer, is an organization which helps seniors who are lonely and who are isolated in long-term care programs. They help by having people spend time with the seniors, and by having people write letters or have email chains. Loneliness and isolation have been proven to decrease cognitive ability and well-being. LITA helps make sure this does not happend to the seniors in our community.",
+		"website": "https://www.litamarin.org",
+		"email": "info@litamarin.org",
+		"address": "2340 Redwood Hwy Bldg F Suite 101, San Rafael, CA",
+		"items": ["Puzzles", "Blankets", "Radios", "iPads", "Board Games", "Playing Cards", "Crossword Puzzles", "DVDs", "CDs", "Books", "Craft Supplies [Category]"]
+	}
     ],
     "items": [
         {
             "category": "Music",
-            "items": ["Small Bass Amp", "Boombox", "Microphones", "Guitars", "Viola", "Violins", "Digital Keyboard", "Cello", "Bass Bows", "Guitar Cables", "Bongo Heads", "Oboes", "Flutes", "Music Stands", "Trumpets", "Trombones", "Drum Pads", "Alto Saxaphone", "Clarinets", "Earbuds"]
+            "items": ["Small Bass Amp", "Boombox", "Microphones", "Guitars", "Viola", "Violins", "Digital Keyboard", "Cello", "Bass Bows", "Guitar Cables", "Bongo Heads", "Oboes", "Flutes", "Music Stands", "Trumpets", "Trombones", "Drum Pads", "Alto Saxaphone", "Clarinets", "Earbuds", "Radios"]
         },
         {
             "category": "Clothing",
@@ -200,7 +208,7 @@
         },
         {
             "category": "Household Items",
-            "items": ["Towels", "Laundry Detergent", "Multi-Surface Cleaner", "Small Trashbags", "Garbage Bags", "Dryer Sheets", "Fabric Softener", "Disinfecting Spray", "Disinfecting Wipes", "Dish Soap", "Dish Towels", "Mops", "Brooms", "Ziploc Bags", "Sandwich Bags", "Paper Shopping Bags", "Brown Paper Lunch Bags", "Sponges", "Hand Towels", "Furniture", "Comforter Set", "Sheets", "Chairs", "Sofas", "Tables", "Footrests", "Lamps", "Kitchen Utensils", "Dressers", "Kitchen Appliances", "Nightstands", "Outdoor Furniture", "Plates", "Silverware", "Desks", "Pots and Pans"]
+            "items": ["Towels", "Laundry Detergent", "Multi-Surface Cleaner", "Small Trashbags", "Garbage Bags", "Dryer Sheets", "Fabric Softener", "Disinfecting Spray", "Disinfecting Wipes", "Dish Soap", "Dish Towels", "Mops", "Brooms", "Ziploc Bags", "Sandwich Bags", "Paper Shopping Bags", "Brown Paper Lunch Bags", "Sponges", "Hand Towels", "Furniture", "Comforter Set", "Sheets", "Chairs", "Sofas", "Tables", "Footrests", "Lamps", "Kitchen Utensils", "Dressers", "Kitchen Appliances", "Nightstands", "Outdoor Furniture", "Plates", "Silverware", "Desks", "Pots and Pans", "Blankets"]
         },
         {
             "category": "Animal Care",
@@ -208,11 +216,11 @@
         },
         {
             "category": "Miscellaneous",
-            "items": ["Purses", "Jewlery", "Books", "Small Alarm Clocks", "Wheelbarrow", "Video Tripods", "Digital Watches", "Balls", "Small Manipulative Toys", "Manure Spreader", "Non-perishable food", "Gum", "National Geographic Magazines", "Makeup Kits", "Used Signage or Promtional Items", "Scented Candles", "Glass Jars", "Photography Equipment"]
+            "items": ["Purses", "Jewlery", "Books", "Small Alarm Clocks", "Wheelbarrow", "Video Tripods", "Digital Watches", "Balls", "Manure Spreader", "Non-perishable food", "Gum", "National Geographic Magazines", "Makeup Kits", "Used Signage or Promtional Items", "Scented Candles", "Glass Jars", "Photography Equipment", "DVDs", "CDs", "iPads"]
         },
         {
             "category": "Toys and Games",
-            "items": ["Lego Sets", "Duplo Sets", "Action Figures", "Hotwheels or Matchbox Cars", "Disney-themed Toys", "Board Games", "Tonka Trucks", "Play-Doh", "Baby Dolls", "Baby Doll Accessories"]
+            "items": ["Lego Sets", "Duplo Sets", "Action Figures", "Hotwheels or Matchbox Cars", "Disney-themed Toys", "Board Games", "Tonka Trucks", "Play-Doh", "Baby Dolls", "Baby Doll Accessories", "Small Manipulative Toys", "Playing Cards", "Puzzles", "Crossword Puzzles"]
         }
     ]
 }
