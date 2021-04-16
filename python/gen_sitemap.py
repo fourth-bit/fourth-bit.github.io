@@ -16,7 +16,7 @@ def gen_site_map():
         sitemap = sitemap[:insert_point] + \
 f"""
     <url>
-        <loc>http://fourth-bit.github.io/charities/{doc}</loc>
+        <loc>https://fourth-bit.github.io/charities/{doc}</loc>
         <priority>1</priority>
     </url>""" \
         + sitemap[insert_point:]
@@ -25,7 +25,7 @@ f"""
         sitemap = sitemap[:insert_point] + \
 f"""
     <url>
-        <loc>http://fourth-bit.github.io/charities/{doc}</loc>
+        <loc>https://fourth-bit.github.io/items/{doc}</loc>
         <priority>1</priority>
     </url>""" \
         + sitemap[insert_point:]
