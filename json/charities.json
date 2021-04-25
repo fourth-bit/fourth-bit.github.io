@@ -150,7 +150,7 @@
             "address": "2150 Newcomb Avenue San Francisco, CA 94124",
             "email": "donate@scrap-sf.org",
             "website": "https://www.scrap-sf.org",
-            "items": ["Craft Supplies [Category]", "Paper", "Fabric (Larger than 12 in x 12 in)", "Buttons", "Thread", "Yarn", "Knitting and Crochet accessories","Leather", "Beads", "Wire", "Used Signage or Promtional Items", "Acrylic Sheets", "Frames", "Architectural &amp; Interior Samples [Skip]", "Art Books", "National Geographic Magazines (Must be National Geographic)", "Glass Jars (Lids, No Labels)", "Paint (Must have manufacturing labels)"]
+            "items": ["Craft Supplies [Category]", "Paper", "Fabric (Larger than 12 in x 12 in)", "Buttons", "Thread", "Yarn", "Knitting and Crochet Accessories","Leather", "Beads", "Wire", "Used Signage or Promtional Items", "Acrylic Sheets", "Frames", "Architectural &amp; Interior Samples [Skip]", "Art Books", "National Geographic Magazines (Must be National Geographic)", "Glass Jars (Lids, No Labels)", "Paint (Must have manufacturing labels)"]
         },
         {
             "name": "Marin Maker Space",
@@ -192,7 +192,7 @@
         },
         {
             "category": "Craft Supplies",
-            "items": ["Dimensional Fabric Paint", "Paint Pens", "Scisors", "Button Maker", "Duct Tape", "Beads", "Puff Paint", "Tacky Craft Glue", "White Board Markers", "Paint Brushes", "Acrylic Paint", "Watercolor Markers", "Frames", "Buttons", "Paint", "Thread", "Fabric", "Wire", "Art Books", "Yarn", "Leather", "Knitting and Crochet accessories", "Acrylic Sheets"]
+            "items": ["Dimensional Fabric Paint", "Paint Pens", "Scisors", "Button Maker", "Duct Tape", "Beads", "Puff Paint", "Tacky Craft Glue", "White Board Markers", "Paint Brushes", "Acrylic Paint", "Watercolor Markers", "Frames", "Buttons", "Paint", "Thread", "Fabric", "Wire", "Art Books", "Yarn", "Leather", "Knitting and Crochet Accessories", "Acrylic Sheets"]
         },
         {
             "category": "Sports Equipment",
