@@ -101,6 +101,9 @@ def gen_list_view() -> str:
 
     script_insert_index = template.find('</body>')
     template = template[:script_insert_index] + '<script src="js/dropdown.js"></script>' + template[script_insert_index:]
+
+    template = template.replace("{TITLE}", "Items")
+
     return template
 
 
@@ -139,7 +142,8 @@ def gen_detail_views() -> dict:
                         charity['name'].replace(' ', '-').lower())\
                 + temp[index:]
         temp = temp.replace('{INSERT CHARITIES}', '')
-        return_dict[name] = template.replace('{INSERT DETAIL VIEW}', temp)
+        temp = template.replace('{INSERT DETAIL VIEW}', temp).replace('{TITLE}', name)
+        return_dict[name] = temp
 
     for obj in objs:
         temp = util.subsitute_object(CATEGORY_DETAIL_VIEW, obj)

@@ -41,6 +41,8 @@ def gen_detail_view(obj):
     template: str = fp.read()
     fp.close()
 
+    template = template.replace('{TITLE}', obj['name'])
+
     alternates = {}
 
     for x in obj:

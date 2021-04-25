@@ -45,7 +45,8 @@ def gen_list_view() -> str:
 
         insert_index = template.find('{INSERT CHARITIES}')
         template = template[:insert_index] + temp + '\n' + template[insert_index:]
-    template = template.replace('{INSERT CHARITIES}', '')
+    template = template.replace('{INSERT CHARITIES}', '')\
+                       .replace('{TITLE}', 'Charities')
 
     return template
 
